@@ -1,4 +1,4 @@
-# filefighter.github.io
+# FileFighter Development Blog
 FileFighter's adventure journal
 
 ## Blog
