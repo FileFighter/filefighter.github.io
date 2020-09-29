@@ -4,7 +4,7 @@ title: "JavaTest"
 date: 2020-09-29 16:07:31 +0200
 categories: intro
 ---
-
+<small>Author: open-schnick</small>
 Here will be a short test for java code snippets.
 {% highlight java %}
 package de.filefighter.rest;
