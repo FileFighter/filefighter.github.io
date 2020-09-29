@@ -1,0 +1,19 @@
+---
+layout: post
+title: "JavaTest"
+date: 2020-09-29 16:07:31 +0200
+categories: intro
+---
+
+Here will be a short test for java code snippets.
+{% highlight java %}
+package de.filefighter.rest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+@SpringBootApplication
+public class RestApplication {
+	public static void main(String[] args) {
+		SpringApplication.run(RestApplication.class, args);
+	}
+}
+{% endhighlight %}
