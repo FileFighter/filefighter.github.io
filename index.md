@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+<img src="assets/images/logo.jpg" style="width:120px">
