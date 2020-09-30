@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: PeerReviews
 permalink: /peerreviews/
 ---
