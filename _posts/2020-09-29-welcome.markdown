@@ -4,7 +4,7 @@ title: "Welcome to our Blog"
 date: 2020-09-29 12:38:38 +0200
 categories: intro
 ---
-<p><small>Author: open-schnick,valentin</small></p>
+<p><small>Author: open-schnick, valentin, Gimleux</small></p>
 This is where you will find all our cool stuff!
 
 
