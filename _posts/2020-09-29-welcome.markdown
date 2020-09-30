@@ -12,7 +12,7 @@ This is where you will find all our cool stuff!
 ### Planing Software
 
 We decided to use youtrack, because we are jetbrains fansboys. 
-So we got a project on the [youtrack instance of the DH.](https://www.dhbw-karlsruhe.myjetbrains.com)
+So we got a project on the [youtrack instance of the DH.](https://dhbw-karlsruhe.myjetbrains.com/)
 The only alternative was Jira, because we all used it at work already.
 Getting used to youtrack takes some time as it provides to lot of features and has a complex UI.
 But with our skills we will get used pretty fast.
