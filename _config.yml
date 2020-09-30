@@ -26,7 +26,7 @@ github_username: FileFighter
 # Build settings
 markdown: kramdown
 #theme: minima
-remote_theme: songzivong/dark-minima
+remote_theme: FileFighter/dark-minima
 
 plugins:
   - jekyll-feed
@@ -42,6 +42,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-header_pages:
-  - about.md
-  - blog.md
+#header_pages:
+#  - about.md
+#  - blog.md
