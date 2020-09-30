@@ -43,5 +43,6 @@ plugins:
 #   - vendor/ruby/
 
 header_pages:
-  - about.md
+  - vision.md
   - blog.md
+  - about.md
