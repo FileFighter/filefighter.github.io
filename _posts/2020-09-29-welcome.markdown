@@ -7,6 +7,17 @@ categories: intro
 <p><small>Author: open-schnick,valentin</small></p>
 This is where you will find all our cool stuff!
 
+
+
+### Planing Software
+
+We decided to use youtrack, because we are jetbrains fansboys. 
+So we got a project on the [youtrack instance of the DH.](dhbw-karlsruhe.myjetbrains.com)
+The only alternative was Jira, because we all used it at work already.
+Getting used to youtrack takes some time as it provides to lot of features and has a complex UI.
+But with our skills we will get used pretty fast.
+
+
 ### Why we choose GitHub Pages and Jekyll:
 We know everyone can create a blog with Wordpress. But we are CS Students so we wanted to do something different.
 Using GitHub Pages for hosting and Jekyll for building our static HTML site we have the ability to write our Blog the same way we write our code.
