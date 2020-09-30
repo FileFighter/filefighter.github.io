@@ -6,6 +6,7 @@ permalink: /about/
 
 FileFighter fights against chaos in your home-Nas.
 We provide a stable and clearly structured web application, to upload, download and manage your files.
+Very Important Change
 
 <!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
