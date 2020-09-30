@@ -5,4 +5,4 @@
 layout: default
 ---
 
-<img src="assets/images/logo.jpg" style="width:120px">
+<img src="assets/images/logo.png" style="width:120px">
