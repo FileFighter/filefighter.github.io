@@ -42,6 +42,5 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-#header_pages:
-#  - about.md
-#  - blog.md
+header_pages:
+  - /pages/*
