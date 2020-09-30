@@ -4,7 +4,7 @@ title: "Welcome to our Blog"
 date: 2020-09-29 12:38:38 +0200
 categories: intro
 ---
-
+<p><small>Author: open-schnick,valentin</small></p>
 This is where you will find all our cool stuff!
 
 ### Why we choose GitHub Pages and Jekyll:
@@ -15,3 +15,18 @@ While setting up the blog we encountered some problems, but managed to solve mos
 With Jekyll we could easily create a site from a template and can simply write [markdown](https://www.markdownguide.org/) to create the blog post and all the other sides. It is also super customizable and themeable.
 
 Using GitHub gives us the ability to have almost everything on one platform. Peer Reviews can be done in the same place where the code is stored.
+
+
+One highlight of the blog could be the support for language highlighting as seen in this short test for java code snippets.
+
+{% highlight java %}
+package de.filefighter.rest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+@SpringBootApplication
+public class RestApplication {
+	public static void main(String[] args) {
+		SpringApplication.run(RestApplication.class, args);
+	}
+}
+{% endhighlight %}
