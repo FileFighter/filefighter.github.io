@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Reviews
-permalink: /peerreviews/
+permalink: /reviews/
 ---
 To give us feedback, you can create a new issue in our [github repository](https://github.com/FileFighter/filefighter.github.io/issues) and label it as "peer-review" or as "feedback".  
 For each blog post we will create an issue on GitHub, there You will be able to give comments and discuss the blog post.  
