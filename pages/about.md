@@ -9,7 +9,6 @@ We provide a stable and clearly structured web application, to upload, download 
 
 FileFighter is developed by:  
 {% for author in site.authors %}
-  <h2>{{ author.name }} - {{ author.position }}</h2>
-  <p><small><a href="{{ author.github }}">Github</a></small></p>
+  <h2>{{ author.name }} - {{ author.position }} <a href="{{ author.github }}" <img alt="githublogo" src="https://github.githubassets.com/favicons/favicon-dark.png" width=32" height="32"></a></h2>
   <p>{{ author.content | markdownify }}</p>
 {% endfor %}
