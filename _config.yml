@@ -27,8 +27,6 @@ github_username: FileFighter
 markdown: kramdown
 #theme: minima
 remote_theme: FileFighter/dark-minima
-disqus:
-  shortname: Kevin12345
 
 plugins:
   - jekyll-feed
