@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to our Blog"
-date: 2020-10-01 12:38:38 +0200
+date: 2020-09-29 12:38:38 +0200
 author: open-schnick, valentin, Gimleux
 categories: intro
 issuelink: https://github.com/FileFighter/filefighter.github.io/issues/5
