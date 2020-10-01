@@ -44,3 +44,6 @@ plugins:
 
 header_pages:
   - /pages/*
+  
+collections:
+  - authors
