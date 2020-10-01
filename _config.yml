@@ -43,7 +43,7 @@ plugins:
 #   - vendor/ruby/
 
 header_pages:
-  - /pages/*
+  - path: /pages/*
   
 collections:
   authors:
