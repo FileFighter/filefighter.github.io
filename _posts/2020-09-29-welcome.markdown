@@ -2,11 +2,10 @@
 layout: post
 title: "Welcome to our Blog"
 date: 2020-09-29 12:38:38 +0200
+author: open-schnick, valentin, Gimleux
 categories: intro
 ---
-<p><small>Author: open-schnick, valentin, Gimleux</small></p>
 This is where you will find all our cool stuff!
-
 
 
 ### Planing Software
