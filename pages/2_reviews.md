@@ -3,7 +3,9 @@ layout: page
 title: Reviews
 permalink: /reviews/
 ---
-To give us feedback, you can create a new issue in our [github repository](https://github.com/FileFighter/filefighter.github.io/issues) and label it as "peer-review" or as "feedback".  
-For each blog post we will create an issue on GitHub, there You will be able to give comments and discuss the blog post.  
-If you want to give us feedback about a specifc blog post, you can use the link in each blog, that will take you to the corresponding issue for each blog,  
+On some of our blog pages, you can comment. To do that use the link on the bottom of the page.  
+The links will be different for every page, taking you to our [github repository](https://github.com/FileFighter/filefighter.github.io/) and to the issues tab.  
+For each page there will bee, a own issue where you can comment and discuss about this.
+
+To give us general feedback, you can create a new issue in our [issues](https://github.com/FileFighter/filefighter.github.io/issues) tab and label it as "feedback".  
 or go to <a href="https://github.com/FileFighter/filefighter.github.io/issues">Issues</a> to see all the open and closed Issues.
