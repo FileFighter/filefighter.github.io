@@ -16,4 +16,4 @@ You can find our newest blog about the development process [here](https://filefi
 
 <h2>Feedback</h2>
 Do you want to give us feedback about our project, blog or code?  
-Read [here](https://filefighter.github.io/peerreviews/) if you want to know how.
+Read [here](https://filefighter.github.io/reviews/) if you want to know how.
