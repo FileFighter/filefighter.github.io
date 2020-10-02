@@ -10,7 +10,7 @@ Our solution is developed with families in mind, which want to use their own clo
 
 We are upset about Dropbrox/ Google Drive and all other large free services logging all our Data. Therefore, we will create our own.
 Luckily you don't have to do the same. You can easily use our software and set up your own instance of the FileFighter-Cloud! 
-Our opensource software will guarantee that no data will be exploited. You enjoy the absolute control about your files as you choose where the servers will be running, and where the files will be stored. You could even run everything on a [Raspberry Pi](https://www.raspberrypi.org/) in your local network.
+Our opensource software will guarantee that no data will be exploited. You enjoy the absolute control about your files as you choose where the servers will be running, and where the files will be stored. You could even run everything on a [Raspberry Pi](https://www.raspberrypi.org/){:target="_blank"} in your local network.
 
 ### Features:
 * easy to setup
@@ -31,4 +31,4 @@ Our opensource software will guarantee that no data will be exploited. You enjoy
 * sync your game files
 * web dav support
 * encryption
-* backup your git repos ([maybe with gittea?](https://gitea.io/))
+* backup your git repos ([maybe with gittea?](https://gitea.io/){:target="_blank"})
