@@ -14,4 +14,5 @@ To give us general feedback, you can create a new issue in our [issues](https://
 
 Here you can find a list of all the reviews we have given for other projects:
 
-* [littleBeasts](https://littlebeastsgame.wordpress.com/2020/10/01/projekterstellung-und-definition/) 
+* [littleBeasts](https://littlebeastsgame.wordpress.com/2020/10/01/projekterstellung-und-definition/)
+* [lazyPlants](https://lazysmartplants.wordpress.com/2020/10/01/week-1-hello-world/)
