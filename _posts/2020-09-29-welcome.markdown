@@ -10,7 +10,7 @@ Hey there!
 With this blog post we want to introduce ourself and our project FileFighter.
 We will briefly talk about the vision of the project and then continue about the first steps we took to organize the development of it.
 
-We are three students of the DHBW Karlsruhe (stu)dying CS. For our Software Engineering class we get the opportunity to show what we are learning with doing what we love: Coding ... and of course everything that comes with managing a larger software project. To read more about the team go to [about](/about).
+We are three students of the DHBW Karlsruhe (stu)dying CS. For our Software Engineering class we got the opportunity to show what we are learning with doing what we love: Coding ... and of course everything that comes with managing a larger software project. To read more about the team go to [about](/about).
 
 Our vision is to create a home Nas software solution that everyone can use the way they want. To get some more details about it visit the [vision page](/vision).
 
