@@ -15,12 +15,12 @@ We are three students of the DHBW Karlsruhe (stu)dying CS. For our Software Engi
 Our vision is to create a home Nas software solution that everyone can use the way they want, to get some more details about it visit the [vision page](/vision).
 
 
-To get us started we needed some basic tools, besides [GitHub](https://github.com/FileFighter), where all the code will go. We need a tool for organizing our work and to share our progress with the world.
+To get us started we needed some basic tools, besides [GitHub](https://github.com/FileFighter){:target="_blank"}, where all the code will go. We need a tool for organizing our work and to share our progress with the world.
 
 ### Planing Software
 
 We decided to use youtrack, because we are jetbrains fansboys.
-So we got a project on the [youtrack instance of the DH.](https://dhbw-karlsruhe.myjetbrains.com/)
+So we got a project on the youtrack instance of the DH.
 The only alternative was Jira, because we all used it at work already.
 Getting used to youtrack takes some time as it provides to lot of features and has a complex UI.
 But by now we figured out the basic and started to create tasks and track our spent time.
@@ -31,7 +31,7 @@ We know everyone can create a blog with Wordpress. But we are CS students so we 
 Using GitHub Pages for hosting and Jekyll for building our static HTML site we have the ability to write our blog the same way we write our code.
 Plus we are not dependent on a service like Wordpress, we could easily move our blog to an other hosting service.
 While setting up the blog we encountered some problems, but managed to solve most of them.
-With Jekyll we could easily create a site from a template and can simply write [markdown](https://www.markdownguide.org/) to create the blog post and all the other sides. It is also super customizable and themeable, so we will apply the corporate design of our FileFighter frontend to it.
+With Jekyll we could easily create a site from a template and can simply write [markdown](https://www.markdownguide.org/){:target="_blank"} to create the blog post and all the other sides. It is also super customizable and themeable, so we will apply the corporate design of our FileFighter frontend to it.
 
 Using GitHub gives us the ability to have almost everything on one platform. Peer Reviews can be done in the same place where the code is stored.
 
@@ -50,4 +50,4 @@ public class RestApplication {
 {% endhighlight %}
 
 Thats it for today, thank you for reading!
-To get to know our workflow for PeerReviews go to the [reviews page](reviews), or just follow the next link and comment on the GitHub issue.
+To get to know our workflow for PeerReviews go to the [reviews page](/reviews), or just follow the next link and comment on the GitHub issue.
