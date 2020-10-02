@@ -4,9 +4,9 @@ title: Our Vision
 permalink: /vision/
 issuelink: https://github.com/FileFighter/filefighter.github.io/issues/4
 ---
-FileFighter is an easy to use and even easier to setup home nas.  
-"Nas" stands for "Network-Attachted-Storage", commonly known nas are applications like [Dropbox](https://www.dropbox.com/) and [Nextcloud](https://nextcloud.com/). We want to provide a stable storage solution for each house hold.  
-Our solution is developed with families in mind, which want to use their own nas, but are afraid of technical as well as security issues.
+FileFighter is an easy to use and even easier to setup home NAS.  
+"NAS" stands for "Network-Attachted-Storage", commonly known NAS are applications like [Dropbox](https://www.dropbox.com/) and [Nextcloud](https://nextcloud.com/). We want to provide a stable storage solution for each house hold.  
+Our solution is developed with families in mind, which want to use their own NAS, but are afraid of technical as well as security issues.
 
 We are upset about Dropbrox / Google Drive and all other large free services logging all our Data. Therefore, we will create our own.
 Luckily you don't have to do the same. You can easily use our software and set up your own instance of the FileFighter-Cloud! 
