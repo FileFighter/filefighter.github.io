@@ -4,7 +4,7 @@ title: Our Vision
 permalink: /vision/
 issuelink: https://github.com/FileFighter/filefighter.github.io/issues/4
 ---
-FileFighter is an easy to use and even easier to setup a home Nas.  
+FileFighter is an easy to use and even easier to setup home Nas.  
 "Nas" stands for "Network-Allocated-Storage" which is commonly known as "cloud". We want to provide a stable storage solution for each house hold.  
 Our solution is developed with families in mind, which want to use their own cloud, but are afraid of technical as well as security issues.
 
