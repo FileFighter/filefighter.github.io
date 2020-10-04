@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: FileFighter
-email: coming soon
+email: filefighter@t-online.de
 description: >- # this means to ignore newlines until "baseurl:"
   FileFighter fights against chaos in your home-Nas.
   We provide a stable and clearly structured web application, to upload, download and manage your files.
