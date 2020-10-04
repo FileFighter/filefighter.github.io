@@ -14,6 +14,10 @@ Read more about our project in our [vision](https://filefighter.github.io/vision
 <h2>Development blog</h2>
 You can find our newest blog about the development process [here](https://filefighter.github.io/blog/).
 
+<h2>Code</h2>
+Our Code is completly open source. That means you can read every single line in our application in our github repositories.  
+Check our our code [here](https://github.com/FileFighter/).
+
 <h2>Feedback</h2>
 Do you want to give us feedback about our project, blog or code?  
 Read [here](https://filefighter.github.io/reviews/) if you want to know how.
