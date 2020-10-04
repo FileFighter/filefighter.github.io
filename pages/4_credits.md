@@ -8,10 +8,10 @@ Here you can find assets and stuff made available from people not part in this p
 
 ### Logo
 Animated Pixel Adventurer  
-rvros - [itch.io](https://rvros.itch.io)  
+rvros - [itch.io](https://rvros.itch.io){:target="_blank"}  
 Edited by Gimleux
 
 ### Background image
 Mountain Dusk Parallax background  
-ansimuz - [itch.io](https://ansimuz.itch.io)  
+ansimuz - [itch.io](https://ansimuz.itch.io){:target="_blank"}  
 Edited by Gimleux
