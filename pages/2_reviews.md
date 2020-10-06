@@ -14,7 +14,7 @@ To give us general feedback, you can create a new issue in our [issues](https://
 
 Here you can find a list of all the reviews we have given for other projects:
 
-####### Week 1
+###### Week 1
 * [littleBeasts](https://littlebeastsgame.wordpress.com/2020/10/01/projekterstellung-und-definition/)
 * [lazyPlants](https://lazysmartplants.wordpress.com/2020/10/01/week-1-hello-world/)
 * [COT/Camera-Observation-Tool](https://cameraobservationtool.wordpress.com/2020/10/05/example-post-2/)
