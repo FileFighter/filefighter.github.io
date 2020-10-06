@@ -30,6 +30,7 @@ Talking about security, all of your files will be only accessable with a passwor
 ### Roadmap
 * edit text files online
 * view videos or listen to music online
+* automatic backups
 * sync your game files
 * web dav support
 * encryption
