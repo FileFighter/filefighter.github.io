@@ -18,9 +18,9 @@ Our frontend where all the interaction with the normal user will take place, wil
 
 The second service is a RESTful Web service that will handle the users and abstract a filesystem. The information about the individual users and all their files will be stored in a [MongoDB](https://www.mongodb.com/) database. The web interface will provide the frontend with all the needed information about folders and their content for authenticated users, but not the actual files.
 
-The actual files will be handled by the "DataHandler Service". This service will provide a interface to store and receive files. The files will be stored on disks. When the users tries to download or upload a file the "DataHandler Service" will also communicate with the RESTful Web service to guarantee authentication.
+The actual files will be handled by the "DataHandler Service". This service will provide a interface to store and receive files. The files will be stored on disks. When the users tries to download or upload a file the "DataHandler Service" will also communicate with the RESTful Web service to guarantee authentication. 
 
-In the end we combine all those images and build container for the client in our [ClientSetup](https://github.com/FileFighter/ClientSetup) Repository. The Client has to run only one script, to initialize all necessary services, and start the FileFighter nas. The script will also periodical check for new versions of the services.
+The whole architecture is also outlined in figure 1 for an easier overview.
 
 <figure>
   <img src="/assets/diagrams/architecture-large-text.svg" style="filter:invert(1)"/>
@@ -28,9 +28,26 @@ In the end we combine all those images and build container for the client in our
 </figure>
 
 
+For the authentication we will be using two kind of tokens. One with an longer active time an one with an shorter one. When the user logs in with his username and password he will get a Refresh token, which has s longer active time an can be saved in the browser (with cookies for example). With this Refresh token he then will be able to request Access Token, those only last a short amount of time, but are necessary for all the Api requests involving the sensitive data. The backend will connect each Access Token with the correspondent user and make sure the user only has rights to access what he is supposed to be able to access. This process is also outlined in figure 2.
 
-<img src="/assets/diagrams/auth-large-text.svg" style="filter:invert(1)"/>
 
-<img src="/assets/diagrams/deployment.svg" style="filter:invert(1)"/>
+
+<figure>
+  <img src="/assets/diagrams/auth-large-text.svg" style="filter:invert(1)"/>
+  <figcaption>Fig.2 - authentication workflow</figcaption>
+</figure>
+
+In order for our client to easily install our application we will provide docker images for all our services.
+Those images will automatically be build for every release using GitHub Actions and published on a container registry.
+The client will then just need to build and start the containers. All this will be done automatically by a script we will provide in our [ClientSetup](https://github.com/FileFighter/ClientSetup) repository. The script will initialize all necessary services, start the FileFighter nas and also periodical check for new versions of the services.
+
+The deployment process is also displayed in figure 3.
+
+
+
+<figure>
+  <img src="/assets/diagrams/deployment.svg" style="filter:invert(1)"/>
+  <figcaption>Fig.3 - deployment of the software for the client</figcaption>
+</figure>
 
 
