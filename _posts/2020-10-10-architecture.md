@@ -3,7 +3,8 @@ layout: post
 title: "Architecture of our Application"
 author: valentin, open-schnick
 categories: tech
-issuelink: https://github.com/FileFighter/filefighter.github.io/issues/7 #TODO
+date: 2020-10-10 11:37:00 +0200
+issuelink: https://github.com/FileFighter/filefighter.github.io/issues/7
 ---
 
 In this blog post we want to give you some insight about the architecture we will be using for our application. Understanding this will be important for you to follow the ongoing development, as you will know the features of the different applications/services and how they play together.
