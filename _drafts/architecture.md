@@ -3,7 +3,7 @@ layout: post
 title: "Architecture of our Application"
 author: valentin, open-schnick
 categories: tech
-issuelink: https://github.com/FileFighter/filefighter.github.io/issues/ #TODO
+issuelink: https://github.com/FileFighter/filefighter.github.io/issues/7 #TODO
 ---
 
 In this blog post we want to give you some insight about the architecture we will be using for our application. Understanding this will be important for you to follow the ongoing development, as you will know the features of the different applications/services and how they play together.
@@ -49,5 +49,31 @@ The deployment process is also displayed in figure 3.
   <img src="/assets/diagrams/deployment.svg" style="filter:invert(1)"/>
   <figcaption>Fig.3 - deployment of the software for the client</figcaption>
 </figure>
+
+
+## Project Roles
+
+One task for this week was to define the rules each member of our team will have during the project.
+
+So we looked at how IBM defines the [RUP Roles](https://www.ibm.com/developerworks/rational/library/apr05/crain/) and selected the roles we think we will need and also added some.
+
+Then we just distributed the roles according to prior knowledge and interests. Those roles should also rather define who is responsible for certain things and not who should do everything related to this role.
+
+
+| Role       | Person        |
+| :------------- | :----------: |
+|  Software Architect/Designer |  Open-Schnick   |
+| Requirements Specifier   |Gimleux  | 
+| Implementer  | everyone|
+| Test Manager |Open-Schnick | 
+|Deployment Manager |Valentin| 
+|Project Manager|everyone?|
+|Configuration Manager of test env|Valentin|
+|UX Design|Gimleux|
+
+
+
+Thats it for today. Thanks for reading!
+
 
 
