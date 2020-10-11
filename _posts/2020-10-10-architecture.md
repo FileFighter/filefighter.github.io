@@ -1,17 +1,19 @@
 ---
 layout: post
-title: "Architecture of our Application"
-author: valentin, open-schnick
+title: "Architecture of our Application & Project Roles"
+author: valentin, open-schnick, Gimleux
 categories: tech
 date: 2020-10-10 11:37:00 +0200
 issuelink: https://github.com/FileFighter/filefighter.github.io/issues/7
 ---
 
-In this blog post we want to give you some insight about the architecture we will be using for our application. Understanding this will be important for you to follow the ongoing development, as you will know the features of the different applications/services and how they play together.
-First we will cover the whole architecture and then talk briefly about authentication and follow up with how the end user will deploy our software.
+In this blog post we want to give you some insight about the architecture we will be using for our application. Understanding this will be important for you to follow the ongoing development, as you will know the features of the different applications/services and how they play together.  
+First we will cover the whole architecture and then talk briefly about authentication and follow up with how the end user will deploy our software.  
+Afterwards, we will also present the distribution of roles in our team.
 
+## Architecture of our Application
 
-Our architecture is based on microservices. Microservices are defined as independent small applications, that serve a special purpose. This gives us the ability to develop each service independently and even with different technologies.
+Our architecture is based on microservices. Microservices are defined as independent small applications, that serve a special purpose. This gives us the ability to develop each service independently and even with different technologies.  
 To be able to setup and deploy the whole application we will be using [Docker](https://www.docker.com/). That way we can manage CI/CD, piplines, and different versions of the services independently. The main reason for using Docker is how easy it is to use as a Client. The dependencies needed to host the whole application are reduced to only docker. Furthermore all the typical advantages of Docker apply here.   
 We will develop three microservices.  
 
@@ -38,8 +40,8 @@ For the authentication we will be using two kind of tokens. One with an longer a
   <figcaption>Fig.2 - authentication workflow</figcaption>
 </figure>
 
-In order for our client to easily install our application we will provide docker images for all our services.
-Those images will automatically be build for every release using GitHub Actions and published on a container registry.
+In order for our client to easily install our application we will provide docker images for all our services.  
+Those images will automatically be build for every release using GitHub Actions and published on a container registry.  
 The client will then just need to build and start the containers. All this will be done automatically by a script we will provide in our [ClientSetup](https://github.com/FileFighter/ClientSetup) repository. The script will initialize all necessary services, start the FileFighter nas and also periodical check for new versions of the services.
 
 The deployment process is also displayed in figure 3.
