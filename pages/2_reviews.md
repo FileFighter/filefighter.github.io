@@ -15,10 +15,10 @@ To give us general feedback, you can create a new issue in our [issues](https://
 Here you can find a list of all the reviews we have given for other projects:
 
 ###### Week 1
-* [littleBeasts](https://littlebeastsgame.wordpress.com/2020/10/01/projekterstellung-und-definition/)
-* [lazyPlants](https://lazysmartplants.wordpress.com/2020/10/01/week-1-hello-world/)
-* [COT/Camera-Observation-Tool](https://cameraobservationtool.wordpress.com/2020/10/05/example-post-2/)
+* [littleBeasts](https://littlebeastsgame.wordpress.com/2020/10/01/projekterstellung-und-definition/){:target="_blank"}
+* [lazyPlants](https://lazysmartplants.wordpress.com/2020/10/01/week-1-hello-world/){:target="_blank"}
+* [COT/Camera-Observation-Tool](https://cameraobservationtool.wordpress.com/2020/10/05/example-post-2/){:target="_blank"}
 
 ###### Week 2
-* [Plandora](https://plandora51897980.wordpress.com/2020/10/11/__trashed/)
-* [Work2Play-Together](https://work2playtogether.wordpress.com/2020/10/08/week-2-organizing-and-setup/)
+* [Plandora](https://plandora51897980.wordpress.com/2020/10/11/__trashed/){:target="_blank"}
+* [Work2Play-Together](https://work2playtogether.wordpress.com/2020/10/08/week-2-organizing-and-setup/){:target="_blank"}
