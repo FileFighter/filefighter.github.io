@@ -18,3 +18,7 @@ Here you can find a list of all the reviews we have given for other projects:
 * [littleBeasts](https://littlebeastsgame.wordpress.com/2020/10/01/projekterstellung-und-definition/)
 * [lazyPlants](https://lazysmartplants.wordpress.com/2020/10/01/week-1-hello-world/)
 * [COT/Camera-Observation-Tool](https://cameraobservationtool.wordpress.com/2020/10/05/example-post-2/)
+
+###### Week 2
+* [Plandora](https://plandora51897980.wordpress.com/2020/10/11/__trashed/)
+* [Work2Play-Together](https://work2playtogether.wordpress.com/2020/10/08/week-2-organizing-and-setup/)
