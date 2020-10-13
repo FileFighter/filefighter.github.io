@@ -53,6 +53,7 @@ Users will be able to store files (upload and download).
 For each file/folder the owner will be able to authorize other users to see or modify files.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
+
 | Abbrevation | Explanation                            |
 | ----------- | -------------------------------------- |
 | SRS         | Software Requirements Specification    |
@@ -66,8 +67,8 @@ For each file/folder the owner will be able to authorize other users to see or m
 
 | Title                                                              | Date       | Publishing organization   |
 | -------------------------------------------------------------------|:----------:| ------------------------- |
-| [FileFighter Blog](https://filefighter.github.io/)          | 13.10.2020 | FileFighter   |
-| [GitHub](https://github.com/FileFighter)              | 13.10.2020 | FileFighter    |
+| [FileFighter Blog](https://filefighter.github.io/)                 | 13.10.2020 | FileFighter               |
+| [GitHub](https://github.com/FileFighter)                           | 13.10.2020 | FileFighter               |
 
 
 ### 1.5 Overview
@@ -95,18 +96,32 @@ Talking about security, all of your files will be only accessable with a passwor
 </figure>
 
 
+
+We separated the use cases in the ones facing the normal user and the ones only important for the admin.
+The admin will be responsible for creating all user accounts, the users them self will then be able to change some of their information like password and username. 
+With their account they will also be able to login to access the website and their files.
+
+
+For file interaction we have the basic use cases of viewing folder contents and be able to rename or delete files. The (technical) more advanced use cases are uploading, downloading and searching for files. One potential feature would be support for different media types like videos and music.
+
+To organize the permissions for files the users will be able to set view or editing permission for user or groups of users.
+
+
+
+
+
 ### 2.3 Technology Stack
-The technology we use is:
+The technologies we use are:
 
 - RestApi:
     - Maven and Springboot
     - MongoDB Database
 
 - Frontend:
-    - Android with Java and XML
+    - React JS webapp
 
 - IDE:
-    - IntelliJ and Android Studio
+    - IntelliJ and VS Code
 
 - Project Management:
     - YouTrack
@@ -117,6 +132,7 @@ The technology we use is:
 - Deployment:
     - Github Actions 
     - Docker
+    - Shell scripts
     
 - Testing:
     - Mockito
