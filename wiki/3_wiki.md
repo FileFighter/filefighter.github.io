@@ -97,17 +97,6 @@ Talking about security, all of your files will be only accessable with a passwor
 
 
 
-We separated the use cases in the ones facing the normal user and the ones only important for the admin.
-The admin will be responsible for creating all user accounts, the users them self will then be able to change some of their information like password and username. 
-With their account they will also be able to login to access the website and their files.
-
-
-For file interaction we have the basic use cases of viewing folder contents and be able to rename or delete files. The (technical) more advanced use cases are uploading, downloading and searching for files. One potential feature would be support for different media types like videos and music.
-
-To organize the permissions for files the users will be able to set view or editing permission for user or groups of users.
-
-
-
 
 
 ### 2.3 Technology Stack
@@ -143,6 +132,11 @@ The technologies we use are:
 ## 3. Specific Requirements
 
 ### 3.1 Functionality
+This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.
+Until December we plan to implement:
+ * 3.1.1 Login
+ * 3.1.2 Create user accounts
+ * 3.1.3 View folder contents
 
 
 ### 3.2 Usability
