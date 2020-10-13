@@ -40,9 +40,9 @@ This Software Requirements Specification (SRS) describes all specifications for 
 
 
 ### 1.2 Scope
-The project is going to be realized as an webapp and backend services, that each user can setup for themself.  
+The project is going to be realized as an webapp and backend services, that each user can setup with one single script for themself.  
   
-Actors of this App can be users and administrators.  
+Actors of this App can be have different roles like user and administrator.  
   
 Planned Subsystems are: 
 * Account System:  
