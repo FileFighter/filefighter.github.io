@@ -70,7 +70,7 @@ Then we just distributed the roles according to prior knowledge and interests. T
 | Implementer  | everyone|
 | Test Manager |Open-Schnick | 
 |Deployment Manager |Valentin| 
-|Project Manager|everyone?|
+|Project Manager|Open-Schnick|
 |Configuration Manager of test env|Valentin|
 |UX Design|Gimleux|
 
