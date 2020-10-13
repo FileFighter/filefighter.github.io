@@ -88,8 +88,11 @@ Talking about security, all of your files will be only accessable with a passwor
 
 ### 2.2 Use Case Diagram
 
-{% include_relative usecases.html %}
 
+
+<figure>
+  <img src="usecases.svg" />
+</figure>
 
 
 ### 2.3 Technology Stack
