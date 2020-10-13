@@ -53,9 +53,6 @@ Users will be able to store files (upload and download).
 For each file/folder the owner will be able to authorize other users to see or modify files.
 
 
-
-
-
 * Friend List and User Rating:  
 Once the account system is created there will be the option to mark users as favorites. Also users or game sessions should get a rating to counter abuse.
 * Connecting People:  
