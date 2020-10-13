@@ -67,7 +67,7 @@ For each file/folder the owner will be able to authorize other users to see or m
 | Title                                                              | Date       | Publishing organization   |
 | -------------------------------------------------------------------|:----------:| ------------------------- |
 | [FileFighter Blog](https://filefighter.github.io/)          | 13.10.2020 | FileFighter   |
-| [GitHub](https://github.com/FileFighter)              | 18.10.2018 | FileFighter    |
+| [GitHub](https://github.com/FileFighter)              | 13.10.2020 | FileFighter    |
 
 
 ### 1.5 Overview
@@ -76,14 +76,21 @@ The following chapter provides an overview of this project with vision and Overa
 ## 2. Overall Description
 
 ### 2.1 Vision
-Inspired by carpool coordination services like ‘BlaBlaCar’ or ‘Mitfahrzentrale’ we want to build an application to coordinate game sessions. We plan to create a platform for people who are looking for other people to play games with. Covering online multiplayer games, tabletop, pen and paper or regular board games we want to provide a kind of bulletin board where people can state what they want to play, when and where they want to do it and how many people they are looking for. Others can then react to the postings and virtually join the play session to be connected by us so everyone can coordinate the actual play session together on a Common Playground.
+FileFighter is an easy to use and even easier to setup home NAS.  
+"NAS" stands for "Network-Attachted-Storage", commonly known NAS are applications like [Dropbox](https://www.dropbox.com/){:target="_blank"} and [Nextcloud](https://nextcloud.com/){:target="_blank"}. We want to provide a stable storage solution for each house hold.  
+Our solution is developed with families in mind, which want to use their own NAS, but are afraid of technical as well as security issues.
+
+We are upset about Dropbrox / Google Drive and all other large free services logging all our Data. Therefore, we will create our own.
+Luckily you don't have to do the same. You can easily use our software and set up your own instance of the FileFighter-Cloud! 
+Because out application will be opensource only, you can checkout our code. You will see that we removed all kinds of data-collecting or spying software from dependencies and of course our own code.
+We will guarantee that no data will collected by us or other companies. You can enjoy the absolute control about your files as you choose where the servers will be running, and where the files will be stored. You could even run everything on a [Raspberry Pi](https://www.raspberrypi.org/){:target="_blank"} in your local network.
+Talking about security, all of your files will be only accessable with a password.
 
 ### 2.2 Use Case Diagram
 
-{% include usecases.html %}
+{% include_relative usecases.html %}
 
-- Green: Planned till end of december
-- Yellow: Planned till end of june
+
 
 ### 2.3 Technology Stack
 The technology we use is:
