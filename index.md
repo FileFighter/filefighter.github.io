@@ -16,7 +16,7 @@ You can find our newest blog about the development process [here](https://filefi
 
 <h2>Code</h2>
 Our Code is completly open source. That means you can read every single line in our application in our github repositories.  
-Check our our code [here](https://github.com/FileFighter/){:target="_blank"}.
+Check out our code [here](https://github.com/FileFighter/){:target="_blank"}.
 
 <h2>Documentation</h2>
 For further information about this project, the development process, or the features check out our [Wiki](https://filefighter.github.io/wiki/){:target="_blank"}.
