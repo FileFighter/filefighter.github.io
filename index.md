@@ -6,18 +6,21 @@ layout: page
 This is the official blog for FileFighter.
 
 <h2>What is FileFighter?</h2>
-FileFighter is a simple Network-Allocated-Storage (NAS) solution for families.
-FileFighter allows families to easily setup their own selfhosted Nas-Cloud.
+FileFighter is a simple Network-Allocated-Storage (NAS) solution for families.  
+FileFighter allows families to easily setup their own selfhosted Nas-Cloud.  
 It is not only easy to setup but also easy to use. A good structure and many important features, make it easy to upload, store, organize, edit and download your images, documents, or files.
-Read more about our project in our [vision](https://filefighter.github.io/vision/).
+Read more about our project in our [vision](https://filefighter.github.io/vision/){:target="_blank"}.
 
 <h2>Development blog</h2>
-You can find our newest blog about the development process [here](https://filefighter.github.io/blog/).
+You can find our newest blog about the development process [here](https://filefighter.github.io/blog/){:target="_blank"}.
 
 <h2>Code</h2>
 Our Code is completly open source. That means you can read every single line in our application in our github repositories.  
-Check our our code [here](https://github.com/FileFighter/).
+Check our our code [here](https://github.com/FileFighter/){:target="_blank"}.
+
+<h2>Documentation</h2>
+For further information about this project, the development process, or the features check out our [Wiki](https://filefighter.github.io/wiki/){:target="_blank"}.
 
 <h2>Feedback</h2>
 Do you want to give us feedback about our project, blog or code?  
-Read [here](https://filefighter.github.io/reviews/) if you want to know how.
+Read [here](https://filefighter.github.io/reviews/){:target="_blank"} if you want to know how.
