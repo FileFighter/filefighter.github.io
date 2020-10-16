@@ -40,13 +40,13 @@ This Software Requirements Specification (SRS) describes all specifications for 
 
 
 ### 1.2 Scope
-The project is going to be realized as an webapp and backend services, that each user can setup with one single script for themself.  
+The project is going to be realized as an webapp and backend services, that each user can setup with one single script for them self.  
   
 Actors of this App can be have different roles like user and administrator.  
   
 Planned Subsystems are: 
 * Account System:  
-Each users will have an account to indentify and get access to files.
+Each users will have an account to identify and get access to files.
 * Files System:
 Users will be able to store files (upload and download).
 * Permissions System:
@@ -54,7 +54,7 @@ For each file/folder the owner will be able to authorize other users to see or m
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 
-| Abbrevation | Explanation                            |
+| Abbreviation | Explanation                            |
 | ----------- | -------------------------------------- |
 | SRS         | Software Requirements Specification    |
 | UC          | Use Case                               |
@@ -78,14 +78,14 @@ The following chapter provides an overview of this project with vision and Overa
 
 ### 2.1 Vision
 FileFighter is an easy to use and even easier to setup home NAS.  
-"NAS" stands for "Network-Attachted-Storage", commonly known NAS are applications like [Dropbox](https://www.dropbox.com/){:target="_blank"} and [Nextcloud](https://nextcloud.com/){:target="_blank"}. We want to provide a stable storage solution for each house hold.  
+"NAS" stands for "Network-Attached-Storage", commonly known NAS are applications like [Dropbox](https://www.dropbox.com/){:target="_blank"} and [Nextcloud](https://nextcloud.com/){:target="_blank"}. We want to provide a stable storage solution for each house hold.  
 Our solution is developed with families in mind, which want to use their own NAS, but are afraid of technical as well as security issues.
 
 We are upset about Dropbrox / Google Drive and all other large free services logging all our Data. Therefore, we will create our own.
 Luckily you don't have to do the same. You can easily use our software and set up your own instance of the FileFighter-Cloud! 
-Because out application will be opensource only, you can checkout our code. You will see that we removed all kinds of data-collecting or spying software from dependencies and of course our own code.
+Because out application will be open source only, you can checkout our code. You will see that we removed all kinds of data-collecting or spying software from dependencies and of course our own code.
 We will guarantee that no data will collected by us or other companies. You can enjoy the absolute control about your files as you choose where the servers will be running, and where the files will be stored. You could even run everything on a [Raspberry Pi](https://www.raspberrypi.org/){:target="_blank"} in your local network.
-Talking about security, all of your files will be only accessable with a password.
+Talking about security, all of your files will be only accessible with a password.
 
 ### 2.2 Use Case Diagram
 
@@ -137,6 +137,21 @@ Until December we plan to implement:
  * 3.1.1 Login
  * 3.1.2 Create user accounts
  * 3.1.3 View folder contents
+ * 3.1.4 Edit (rename/delete) files
+ * 3.1.5 Edit permission (viewing or editing) of files for users or groups
+
+Until June, we want to implement:
+ * 3.1.6 Edit profile information (change password etc.)
+ * 3.1.7 Show own profile
+ * 3.1.8 Download files
+ * 3.1.9 Upload files
+ * 3.1.10 Search for files
+ * 3.1.11 Sort folder contents
+
+
+#### 3.1.1 Login
+
+
 
 
 ### 3.2 Usability
@@ -146,7 +161,7 @@ Until December we plan to implement:
 
 #### 3.3.1 Availability
 
-### 3.4 Perfomance
+### 3.4 Performance
 
 ### 3.5 Supportability
 
