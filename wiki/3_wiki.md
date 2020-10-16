@@ -95,7 +95,7 @@ Talking about security, all of your files will be only accessible with a passwor
   <img src="usecases.svg" />
 </figure>
 
-
+<!-- 
 We separated the use cases in the ones facing the normal user and the ones only important for the admin.
 The admin will be responsible for creating all user accounts, the users them self will then be able to change some of their information like password and username. 
 
@@ -106,7 +106,7 @@ For file interaction we have the basic use cases of viewing folder contents and 
 To organize the permissions for files the users will be able to set view or editing permission for user or groups of users.
 
 
-
+ -->
 
 
 ### 2.3 Technology Stack
@@ -149,14 +149,15 @@ Until December we plan to implement:
  * 3.1.3 View folder contents
  * 3.1.4 Edit (rename/delete) files
  * 3.1.5 Edit permission (viewing or editing) of files for users or groups
+ * 3.1.6 Sort folder contents
 
 Until June, we want to implement:
- * 3.1.6 Show own profile
- * 3.1.7 Edit profile information (change password etc.)
- * 3.1.8 Download files
- * 3.1.9 Upload files
- * 3.1.10 Search for files
- * 3.1.11 Sort folder contents
+ * 3.1.7 Show own profile
+ * 3.1.8 Edit profile information (change password etc.)
+ * 3.1.9 Download files
+ * 3.1.10 Upload files
+ * 3.1.11 Search for files
+
 
 Use cases that are out of scope:
  * 3.1.12 View media files like audio or video files
@@ -185,26 +186,28 @@ The user will then be able to rename or delete the files he is seeing, if he als
 The owner of a file (the person who uploaded the file) will be able to permit other users to see and also edit his files. This will be managed for folders and their content or individual files. He can permit it to single users or a certain group of users (administrators/internal users/external users).
 
 
-#### 3.1.6 Show own profile
+#### 3.1.6 Sort folder contents
+
+#### 3.1.7 Show own profile
 
 This will be site where the logged in user will be able to see his profile information, like username and the groups he is in.
 
-#### 3.1.7 Edit profile information (change password etc.)
+#### 3.1.8 Edit profile information (change password etc.)
 
 Once an account was created the user should change his password. He will also be able to change his username.
 
 
-#### 3.1.8 Download files
+#### 3.1.9 Download files
 
 This is one of the most important use cases of the application. You will be able to download files you are allowed to see with your browser.
 
 
 
-#### 3.1.9 Upload files
+#### 3.1.10 Upload files
 
 The same way you can download files you will also be able to upload files in places you are allowed to. This way you can also overwrite files.
 
-#### 3.1.10 Search for files
+#### 3.1.11 Search for files
 
 You will be able to search for files with a specific name within all the files you are allowed to view.
 
