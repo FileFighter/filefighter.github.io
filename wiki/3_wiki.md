@@ -96,6 +96,16 @@ Talking about security, all of your files will be only accessible with a passwor
 </figure>
 
 
+We separated the use cases in the ones facing the normal user and the ones only important for the admin.
+The admin will be responsible for creating all user accounts, the users them self will then be able to change some of their information like password and username. 
+
+
+
+For file interaction we have the basic use cases of viewing folder contents and be able to rename or delete files. The (technical) more advanced use cases are uploading, downloading and searching for files. One potential feature would be support for different media types like videos and music.
+
+To organize the permissions for files the users will be able to set view or editing permission for user or groups of users.
+
+
 
 
 
@@ -141,23 +151,75 @@ Until December we plan to implement:
  * 3.1.5 Edit permission (viewing or editing) of files for users or groups
 
 Until June, we want to implement:
- * 3.1.6 Edit profile information (change password etc.)
- * 3.1.7 Show own profile
+ * 3.1.6 Show own profile
+ * 3.1.7 Edit profile information (change password etc.)
  * 3.1.8 Download files
  * 3.1.9 Upload files
  * 3.1.10 Search for files
  * 3.1.11 Sort folder contents
 
+Use cases that are out of scope:
+ * 3.1.12 View media files like audio or video files
+ * 3.1.13 Share links to not logged in users
+
 
 #### 3.1.1 Login
 
+Each users will haven an account they can use to access their files. Therefor they will need to login when using the application. This will be done with username and password. The login will also be cached in the browser, so you don't have to login every time when using the same browser. You will also be able to log out.
 
+#### 3.1.2 Create user accounts
+
+To register an account the administrator will have to create one. The administrator will be able to choose name and group of the new account.
+
+
+#### 3.1.3 View folder contents
+
+The users will see all the files and subfolders he can access. He will also be able to navigate the folder structure.
+
+#### 3.1.4 Edit (rename/delete) files
+
+The user will then be able to rename or delete the files he is seeing, if he also has edit rights for them.
+
+#### 3.1.5 Edit permission (viewing or editing) of files for users or groups
+
+The owner of a file (the person who uploaded the file) will be able to permit other users to see and also edit his files. This will be managed for folders and their content or individual files. He can permit it to single users or a certain group of users (administrators/internal users/external users).
+
+
+#### 3.1.6 Show own profile
+
+This will be site where the logged in user will be able to see his profile information, like username and the groups he is in.
+
+#### 3.1.7 Edit profile information (change password etc.)
+
+Once an account was created the user should change his password. He will also be able to change his username.
+
+
+#### 3.1.8 Download files
+
+This is one of the most important use cases of the application. You will be able to download files you are allowed to see with your browser.
+
+
+
+#### 3.1.9 Upload files
+
+The same way you can download files you will also be able to upload files in places you are allowed to. This way you can also overwrite files.
+
+#### 3.1.10 Search for files
+
+You will be able to search for files with a specific name within all the files you are allowed to view.
 
 
 ### 3.2 Usability
 
+We want our application to be easy to setup and also easy to use. The user interface should be intuitive and self-explanatory. It should be close to different filesystem browsers you can find on operation systems.
+Setting up the application should be easy for everyone who has some experience with computers and servers. The installation will be done by a single shell script and require docker.
+
+
+
 
 ### 3.3 Reliability
+
+The provided software should be stable, during the development process we will always provide two version, one that should be stable and one that already includes the latest features.
 
 #### 3.3.1 Availability
 
