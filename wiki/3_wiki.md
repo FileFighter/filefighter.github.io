@@ -348,3 +348,5 @@ The development will follow the common clean code standards and naming conventio
 
 ## 4. Supporting Information
 For any further information you can contact the FileFighter Team.
+
+For feedback about this page go the [GitHub Issue](https://github.com/FileFighter/filefighter.github.io/issues/11).
