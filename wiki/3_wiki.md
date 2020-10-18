@@ -4,7 +4,6 @@ title: Wiki
 permalink: /wiki/
 ---
 
-WIP
 
 #TOC
 
@@ -70,7 +69,7 @@ Talking about security, all of your files will be only accessible with a passwor
   <img src="usecases.svg" />
 </figure>
 
-<!-- 
+
 We separated the use cases in the ones facing the normal user and the ones only important for the admin.
 The admin will be responsible for creating all user accounts, the users them self will then be able to change some of their information like password and username. 
 
@@ -80,8 +79,7 @@ For file interaction we have the basic use cases of viewing folder contents and 
 
 To organize the permissions for files the users will be able to set view or editing permission for user or groups of users.
 
- -->
-
+ 
 
 ### 2.3 Technology Stack
 The technologies we use are:
@@ -173,7 +171,7 @@ This will be site where the logged in user will be able to see his profile infor
 
 #### 3.1.8 Edit profile information (change password etc.)
 
-Once an account was created the user should change his password. He will also be able to change his username.
+Once an account was created the user is able to change his username and password.
 
 
 #### 3.1.9 Download files
@@ -184,7 +182,7 @@ This is one of the most important use cases of the application. You will be able
 
 #### 3.1.10 Upload files
 
-The same way you can download files you will also be able to upload files in places you are allowed to. This way you can also overwrite files.
+The same way you can download files you will also be able to upload files in places you are allowed to.
 
 #### 3.1.11 Search for files
 
@@ -194,7 +192,7 @@ You will be able to search for files with a specific name within all the files y
 ### 3.2 Usability
 
 We want our application to be easy to set up and easy to use. The user interface should be intuitive and self-explanatory. It should be close to different filesystem browsers you can find on operation systems.
-Setting up the application should be easy for everyone who has some experience with computers and servers. The installation will be done by a single shell script and require docker.
+Setting up the application should be easy for everyone who has some experience with computers and servers. The installation will be done by executing one single shell script. It will only require docker as a dependency.
 
 
 
@@ -217,7 +215,7 @@ We shall provide options to back up all the data stored by our application.
 ### 3.4 Performance
 
 Performance is important for all parts of our software and will always be considered during the development process.
-
+We also make sure, that our application can be run on very low level hardware like a raspberry pie. In the end our application will be self-hosted, so we can't make promises about performance on every hardware.
 
 #### 3.4.1 App performance
 
@@ -235,12 +233,13 @@ Our application will focus on private usage with a smaller set of users. By usin
 ### 3.5 Supportability
 
 #### 3.5.1 Coding Standards
-WIP
-We are going to write the code by using common clean code standards. For example, we will name our variables and methods by their functionalities. This will keep the code easy to read by everyone and make further development much easier.
 
+We are going to write the code by using common clean code standards. For example, we will name our variables and methods by their functionalities. This will keep the code easy to read by everyone and make further development much easier.
+For example, we will use Typescript instead of JavaScript for our React webapp, to write cleaner code.
+ 
 #### 3.5.2 Testing Strategy
-WIP
-The application will have a high test coverage and all important functionalities and edge cases should be tested. Further, mistakes in the implementation will be discovered instantly, and it will be easy to locate the error.
+
+The testable parts of our application e.g. RESTApi will have a high test coverage and all important functionalities and edge cases should be tested. Further, mistakes in the implementation will be discovered instantly, and it will be easy to locate the error.
 
 ### 3.6 Design Constraints
 
@@ -257,7 +256,7 @@ Supported browsers will be:
 
 
 ### 3.7 On-line User Documentation and Help System Requirements
-WIP
+
 The usage of the app should be as intuitive as possible, so it won't need any further documentation. If the user needs some help we will implement a "Help"-Button in the App which includes a FAQ.
 
 
@@ -270,7 +269,7 @@ We don't plan to use any paid software as we want to publish the source code und
 
 #### 3.9.1 User Interfaces
 
-WIP
+Will be added soon.
 
 #### 3.9.2 Hardware Interfaces
 
@@ -296,8 +295,8 @@ We plan to publish the source code under an open-source license.
 See [credits](/credits).
 
 ### 3.12 Applicable Standards
-WIP
-The development will follow the common clean code standards and naming conventions. Also we will create a definition of d which will be added here as soon as its complete.
+
+The development will follow the common clean code standards and naming conventions. Also, we will create a definition of d which will be added here as soon as its complete.
 
 
 ## 4. Supporting Information
