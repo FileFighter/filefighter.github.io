@@ -22,3 +22,7 @@ Here you can find a list of all the reviews we have given for other projects:
 ###### Week 2
 * [Plandora](https://plandora51897980.wordpress.com/2020/10/11/__trashed/){:target="_blank"}
 * [Work2Play-Together](https://work2playtogether.wordpress.com/2020/10/08/week-2-organizing-and-setup/){:target="_blank"}
+
+###### Week 3
+* [littleBeasts](https://littlebeastsgame.wordpress.com/2020/10/18/3rd-week/){:target="_blank"}
+* [CouchPotato<sup>TM</sup>](https://couchpotato228498876.wordpress.com/2020/10/19/week-2-project-warm-up-time/){:target="_blank"}
