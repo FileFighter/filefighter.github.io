@@ -197,7 +197,7 @@ To register an account the administrator will have to create one. The administra
 The users will see all the files and subfolders he can access. He will also be able to navigate the folder structure.
 
 
-[View folder contents](usecases/viewFolderContents)
+[View folder contents](/wiki/usecases/viewFolderContents.html)
 
 
 #### 3.1.4 Edit (rename/delete) files
@@ -208,6 +208,7 @@ The user will then be able to rename or delete the files he is seeing, if he als
 
 The owner of a file (the person who uploaded the file) will be able to permit other users to see and edit his files. This will be managed for folders and their content or individual files. He can permit it to single users or a certain group of users (administrators/internal users/external users).
 
+[CRUD Permissions](/wiki/usecases/crudPermissions.html)
 
 #### 3.1.6 Sort folder contents
 

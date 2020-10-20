@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Use case view Folder Contents
-permalink: /wiki/usecases/viewFolderContents
+notInNav: true
 ---
 
 

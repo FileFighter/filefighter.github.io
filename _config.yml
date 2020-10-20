@@ -44,7 +44,7 @@ plugins:
 
 header_pages:
   - path: /pages/*
-  - path: /wiki/wiki.md
+  - path: /wiki/3_wiki.md
   
 collections:
   authors:
