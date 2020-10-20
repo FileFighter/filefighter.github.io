@@ -197,6 +197,7 @@ To register an account the administrator will have to create one. The administra
 The users will see all the files and subfolders he can access. He will also be able to navigate the folder structure.
 
 
+[View folder contents](usecases/viewFolderContents)
 
 
 #### 3.1.4 Edit (rename/delete) files
