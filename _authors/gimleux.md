@@ -2,7 +2,7 @@
 name: Gimleux
 position: Developer
 github: https://github.com/Gimleux/
-imageSource: assets/images/animated-adventurer.gif
+imageSource: /assets/images/animated-adventurer.gif
 imageAlt: "Adventurer Animated"
 ---
 
