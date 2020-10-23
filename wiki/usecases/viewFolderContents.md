@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Use-Case Specification: View folder contents
+title: "Use-Case Specification: View folder contents"
 notInNav: true
 ---
 # 1. View folder contents
