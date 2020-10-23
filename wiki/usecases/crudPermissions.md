@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Use case view Folder Contents
+title: Use case share files and directories
 notInNav: true
 ---
 
