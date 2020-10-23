@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Use-Case Specification: Share files and directories
+title: "Use-Case Specification: Share files and directories"
 notInNav: true
 ---
 
