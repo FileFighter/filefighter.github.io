@@ -6,7 +6,8 @@ notInNav: true
 # 1. View folder contents
 
 ## 1.1 Brief Description
-tbd
+The users will see all the files and subfolders he can access. He will also be able to navigate the folder structure.
+
 
 ## 1.2 Mockup
 <figure>
@@ -43,3 +44,6 @@ tbd
 
 # 6. Function Points
 tbd
+
+
+For feedback about this page go to this [issue](https://github.com/FileFighter/filefighter.github.io/issues/17){:target="_blank"}.
