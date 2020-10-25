@@ -2,11 +2,13 @@
 layout: page
 title: "Use-Case Specification: View folder contents"
 notInNav: true
+issuelink: https://github.com/FileFighter/filefighter.github.io/issues/17
 ---
 # 1. View folder contents
 
 ## 1.1 Brief Description
-tbd
+The users will see all the files and subfolders he can access. He will also be able to navigate the folder structure.
+
 
 ## 1.2 Mockup
 <figure>
@@ -43,3 +45,4 @@ tbd
 
 # 6. Function Points
 tbd
+
