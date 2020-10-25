@@ -2,6 +2,7 @@
 layout: page
 title: "Use-Case Specification: Share files and directories (Permissions CRUD)"
 notInNav: true
+issuelink: https://github.com/FileFighter/filefighter.github.io/issues/17
 ---
 
 # 1. Share files and directories
@@ -46,5 +47,3 @@ tbd
 # 6. Function Points
 tbd
 
-
-For feedback about this page go to this [issue](https://github.com/FileFighter/filefighter.github.io/issues/17){:target="_blank"}.

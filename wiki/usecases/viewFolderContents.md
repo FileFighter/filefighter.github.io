@@ -2,6 +2,7 @@
 layout: page
 title: "Use-Case Specification: View folder contents"
 notInNav: true
+issuelink: https://github.com/FileFighter/filefighter.github.io/issues/17
 ---
 # 1. View folder contents
 
@@ -45,5 +46,3 @@ tbd
 # 6. Function Points
 tbd
 
-
-For feedback about this page go to this [issue](https://github.com/FileFighter/filefighter.github.io/issues/17){:target="_blank"}.
