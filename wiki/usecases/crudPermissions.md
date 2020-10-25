@@ -1,13 +1,15 @@
 ---
 layout: page
-title: "Use-Case Specification: Share files and directories"
+title: "Use-Case Specification: Share files and directories (Permissions CRUD)"
 notInNav: true
+issuelink: https://github.com/FileFighter/filefighter.github.io/issues/17
 ---
 
 # 1. Share files and directories
 
 ## 1.1 Brief Description
-tbd
+The owner of a file (the person who uploaded the file) will be able to permit other users to see and edit his files. This will be managed for folders and their content or individual files. He can permit it to single users or a certain group of users (administrators/internal users/external users).
+
 
 ## 1.2 Mockup
 <figure>
@@ -44,3 +46,4 @@ tbd
 
 # 6. Function Points
 tbd
+
