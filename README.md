@@ -1,4 +1,3 @@
-[//]: # (Trigger Rebuild)
 # FileFighter Development Blog
 FileFighter's adventure journal
 
