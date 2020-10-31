@@ -29,8 +29,8 @@ tbd
 </figure>
 
 ### .feature File
-tdb
-<script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/java/de/filefighter/rest/RestApplicationIntegrationTests.java"></script>
+
+<script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/cucumber/de/filefighter/rest/crudPermissions.feature"></script>
 
 
 ## 2.2 Alternative Flows

@@ -23,6 +23,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username: FileFighter
 
+minima:
+  social_links:
+    github: FileFighter
 # Build settings
 markdown: kramdown
 #theme: minima
