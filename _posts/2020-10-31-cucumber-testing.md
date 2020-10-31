@@ -3,7 +3,7 @@ layout: post
 title: "Cucumber Testing"
 author: valentin
 categories: tech
-issuelink: https://github.com/FileFighter/filefighter.github.io/issues/ # TODO
+issuelink: https://github.com/FileFighter/filefighter.github.io/issues/21
 ---
 
 #### Cucumber
@@ -15,7 +15,7 @@ With the nice tutorial from [Cucumber](https://cucumber.io/docs/guides/10-minute
 the parameters of the step functions and also to reuse the steps where ever it is possible. This avoids having to write several step functions that do almost the same.
 
 So see the step functions go to the UC documentations:  
- [permissions use case](/wiki/usecases/crudPermissions.html) and [view folder contents](/wiki/usecases/viewFolderContents.html)
+ [permissions use case](/wiki/usecases/crudPermissions.html){:target="_blank"} and [view folder contents](/wiki/usecases/viewFolderContents.html){:target="_blank"}
 
 With IntelliJ IDEA Ultimate (free with [GitHub Student Developer Pack](https://education.github.com/pack){:target="_blank"}) you also get good language support for feature files, as seen in this image.
 
