@@ -1,6 +1,7 @@
 [//]: # (Trigger Rebuild 4)
 # FileFighter Development Blog
-FileFighter's adventure journal
+FileFighter's adventure journal  
+![Link Snitch](https://github.com/FileFighter/filefighter.github.io/workflows/Link%20Snitch/badge.svg)
 
 ## Blog
 Do you want to read our blog? Feel free to do so, and checkout out blog at : <a href="https://filefighter.github.io/">https://filefighter.github.io</a>
