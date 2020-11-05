@@ -7,6 +7,7 @@ on:
 
 env:
   URL: https://filefighter.github.io
+  config: .github/linkSnitch-config.json
 
 jobs:
   build:
@@ -16,7 +17,5 @@ jobs:
     steps:
       - name: Check out master
         uses: actions/checkout@master
-        with:
-          fetch-depth: 1
       - name: Report broken links
         uses: victoriadrake/link-snitch@master
