@@ -29,7 +29,7 @@ tbd
 
 ### .feature File
 
-<script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/cucumber/de/filefighter/rest/ViewFolderContents.feature"></script>
+<script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/ViewFolderContents.feature"></script>
 
 
 ## 2.2 Alternative Flows
