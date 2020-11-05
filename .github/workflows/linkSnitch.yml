@@ -7,7 +7,7 @@ on:
 
 env:
   URL: https://filefighter.github.io
-  config: .github/linkSnitch-config.json
+  CONFIG: .github/linkSnitch-config.json
 
 jobs:
   build:
