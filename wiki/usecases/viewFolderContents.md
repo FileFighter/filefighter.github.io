@@ -28,7 +28,8 @@ tbd
 </figure>
 
 ### .feature File
-tbd
+
+<script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/ViewFolderContents.feature"></script>
 
 
 ## 2.2 Alternative Flows
