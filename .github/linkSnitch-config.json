@@ -1,0 +1,21 @@
+{
+  "OK": [
+    200,
+    999
+  ],
+  "attrs": [
+    "href",
+    "src"
+  ],
+  "exclude_scheme_prefixes": [
+    "tel"
+  ],
+  "tags": [
+    "a",
+    "img",
+    "link",
+    "script"
+  ],
+  "threads": 50,
+  "timeout": 60
+}

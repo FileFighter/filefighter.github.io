@@ -113,7 +113,7 @@ Talking about security, all of your files will be only accessible with a passwor
 
 
 <figure>
-  <img src="usecases.svg" />
+  <img src="/assets/diagrams/usecases.svg" />
 </figure>
 
 
