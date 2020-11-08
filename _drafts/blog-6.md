@@ -18,27 +18,27 @@ With Intellij IDEA you can install the Youtrack plugin and do almost everything 
 Sadly at the moment I was taking this screenshot the youtrack server of the DH was not working correctly, so I could not select a project.
 
 
-As an alternative to this plugin I also searched for a cli for youtrack. [The one I found](https://github.com/shanehofstetter/youtrack-cli) works for the basic needs. If you are a terminal crack this will be the way to go.
+As an alternative to this plugin I also searched for a CLI (command-line interface) for youtrack. [The one I found](https://github.com/shanehofstetter/youtrack-cli){:target="_blank"} works for the basic needs. If you are a terminal crack this will be the way to go.
 
 <img src="/assets/images/blog-6/yt-cli.png">
 
 <img src="/assets/images/blog-6/yt-cli-work.png">
 
 
-An other nice feature of Intellij is the graphical git interface. We are not using [GITx](http://gitx.frim.nl/) as this seems to only work on macOS. But for me personally nothing beats the git cli.   
+An other nice feature of Intellij is the graphical git interface. We are not using [GITx](http://gitx.frim.nl/){:target="_blank"} as this seems to only work on macOS. But for me personally nothing beats the git cli.   
 
 
 <img src="/assets/images/blog-6/git-in-ide.png">
 
 
-To always keep track of how much time you are spending for the different task you can enable time tracking in the IDE as described [here](https://www.jetbrains.com/help/youtrack/standalone/Time-Tracking-IDE-Integration.html).
+To always keep track of how much time you are spending for the different task you can enable time tracking in the IDE as described [here](https://www.jetbrains.com/help/youtrack/standalone/Time-Tracking-IDE-Integration.html){:target="_blank"}.
 
 
 <img src="/assets/images/blog-6/enable-tt.png">
 
 <img src="/assets/images/blog-6/time.png">
 
-Our project overview can be found [here](https://dhbw-karlsruhe.myjetbrains.com/youtrack/dashboard?id=005597cb-b220-44de-826c-c318c2d86655) and our agile board [here](https://dhbw-karlsruhe.myjetbrains.com/youtrack/agiles/108-41/109-389). 
+Our project overview can be found [here](https://dhbw-karlsruhe.myjetbrains.com/youtrack/dashboard?id=005597cb-b220-44de-826c-c318c2d86655){:target="_blank"} and our agile board [here](https://dhbw-karlsruhe.myjetbrains.com/youtrack/agiles/108-41/109-389){:target="_blank"}. 
 
 Maybe you need to login first.
 
@@ -48,5 +48,5 @@ Maybe you need to login first.
 #### Blogging tip of the Day [1]!
 
 Have you ever had a broken link on your website? This really sucks and can happen for various reasons. 
-With the Python tool [Hydra](https://github.com/victoriadrake/hydra-link-checker) you can check for dead link for any given url manually.
-To automate this you can use GitHub Action with the Action [Link Snitch](https://github.com/victoriadrake/link-snitch). Because we are hosting our blog with GitHub pages our page gets checked for broken links everytime we public something on it. What a perfect combination.
+With the Python tool [Hydra](https://github.com/victoriadrake/hydra-link-checker){:target="_blank"} you can check for dead link for any given url manually.
+To automate this you can use GitHub Actions with the Action [Link Snitch](https://github.com/victoriadrake/link-snitch){:target="_blank"}. Because we are hosting our blog with GitHub pages our page gets checked for broken links everytime we public something on it. What a perfect combination.
