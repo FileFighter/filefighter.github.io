@@ -3,7 +3,7 @@ layout: post
 title: "Our scrummy Project Managing"
 author: valentin
 categories: pm
-issuelink: https://github.com/FileFighter/filefighter.github.io/issues/ # TODO
+issuelink: https://github.com/FileFighter/filefighter.github.io/issues/26
 ---
 
 This blogpost will be about project management and how you can set up a nice workflow.
