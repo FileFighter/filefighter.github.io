@@ -34,3 +34,6 @@ Here you can find a list of all the reviews we have given for other projects:
 ###### Week 5
 * [TaskHub](https://taskhub854228916.wordpress.com/2020/10/29/0%ef%b8%8f%e2%83%a35%ef%b8%8f%e2%83%a3-%f0%9f%a7%aa-tests-with-cucumber/){:target="_blank"}
 * [Mood4Food](https://md4fd.wordpress.com/2020/10/30/week-5-feature-files/){:target="_blank"}
+
+###### Week 6
+* [SimpleSurvey] (https://simplesurveyproject.wordpress.com/2020/11/03/week-6){:target="_blank"}
