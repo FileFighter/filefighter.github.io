@@ -187,10 +187,13 @@ Use cases that are out of scope:
 
 Each user will haven an account they can use to access their files. Therefore, they will need to login when using the application. This will be done with username and password. The login will also be cached in the browser, so you don't have to login every time when using the same browser. You will also be able to log out.
 
+[Login](/wiki/usecases/login.html)
+
 #### 3.1.2 Create user accounts
 
 To register an account the administrator will have to create one. The administrator will be able to choose a name and a group of the new account.
 
+[CRUD users](/wiki/usecases/crudUsers.html)
 
 #### 3.1.3 View folder contents
 
@@ -222,6 +225,7 @@ This will be site where the logged in user will be able to see his profile infor
 
 Once an account was created the user is able to change his username and password.
 
+[Edit profile](/wiki/usecases/editProfile.html)
 
 #### 3.1.9 Download files
 
