@@ -21,7 +21,7 @@ permalink: /wiki/
 - [3. Specific Requirements](#3-specific-requirements)
   - [3.1 Functionality](#31-functionality)
     - [3.1.1 Login](#311-login)
-    - [3.1.2 Create user accounts](#312-create-user-accounts)
+    - [3.1.2 Register new user accounts](#312-register-new-user-accounts)
     - [3.1.3 View folder contents](#313-view-folder-contents)
     - [3.1.4 Edit (rename/delete) files](#314-edit-renamedelete-files)
     - [3.1.5 Edit permission (viewing or editing) of files for users or groups](#315-edit-permission-viewing-or-editing-of-files-for-users-or-groups)
@@ -191,58 +191,67 @@ Each user will haven an account they can use to access their files. Therefore, t
 
 [Login](/wiki/usecases/login.html)
 
-#### 3.1.2 Create user accounts
+#### 3.1.2 Register new user accounts
 
 To register an account the administrator will have to create one. The administrator will be able to choose a name and a group of the new account.
 
-[CRUD users](/wiki/usecases/crudUsers.html)
+More about this Use Case [here](/wiki/usecases/crudUsers.html).
 
 #### 3.1.3 View folder contents
 
 The users will see all the files and subfolders he can access. He will also be able to navigate the folder structure.
 
 
-[View folder contents](/wiki/usecases/viewFolderContents.html)
+More about this Use Case [here](/wiki/usecases/viewFolderContents.html).
 
 
 #### 3.1.4 Edit (rename/delete) files
 
 The user will then be able to rename or delete the files he is seeing, if he also has edit rights for them.
 
+<!-- More about this Use Case -->
+
 #### 3.1.5 Edit permission (viewing or editing) of files for users or groups
 
 The owner of a file (the person who uploaded the file) will be able to permit other users to see and edit his files. This will be managed for folders and their content or individual files. He can permit it to single users or a certain group of users (administrators/internal users/external users).
 
-[CRUD Permissions](/wiki/usecases/crudPermissions.html)
+More about this Use Case [here](/wiki/usecases/crudPermissions.html).
 
 #### 3.1.6 Sort folder contents
 
 To easily find files you will also be able to sort the files in the current folder by different values like filename or last edited.
 
+<!-- More about this Use Case -->
+
 #### 3.1.7 Show own profile
 
 This will be site where the logged in user will be able to see his profile information, like his username, and the groups he is in.
+
+<!-- More about this Use Case -->
 
 #### 3.1.8 Edit profile information (change password etc.)
 
 Once an account was created the user is able to change his username and password.
 
-[Edit profile](/wiki/usecases/editProfile.html)
+More about this Use Case [here](/wiki/usecases/editProfile.html).
 
 #### 3.1.9 Download files
 
 This is one of the most important use cases of the application. You will be able to download files you are allowed to see with your browser.
 
-
+<!-- More about this Use Case -->
 
 #### 3.1.10 Upload files
 
 The same way you can download files you will also be able to upload files in places you are allowed to.
 
+<!-- More about this Use Case -->
+
 #### 3.1.11 Search for files
 
 You will be able to search for files with a specific name within all the files you are allowed to view.
 
+<!-- More about this Use Case -->
 
 ### 3.2 Usability
 
