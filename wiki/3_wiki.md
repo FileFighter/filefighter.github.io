@@ -4,6 +4,8 @@ title: Wiki
 permalink: /wiki/
 ---
 
+{% include wiki-nav.html %}
+
 
 
 - [1. Introduction](#1-introduction)
