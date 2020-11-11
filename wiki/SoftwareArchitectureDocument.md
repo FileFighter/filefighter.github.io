@@ -70,14 +70,39 @@ This project uses the MVC Pattern for the back end (Spring Boot). So the model (
 
 ## 3. Architectural Goals and Constraints
 
+Our architecture is based on microservices. Microservices are defined as independent small applications, that serve a special purpose. This gives us the ability to develop each service independently and even with different technologies.  
+To be able to setup and deploy the whole application we will be using [Docker](https://www.docker.com/). That way we can manage CI/CD, pipelines, and different versions of the services independently. The main reason for using Docker is how easy it is to use as a Client. The dependencies needed to host the whole application are reduced to only docker. Furthermore, all the typical advantages of Docker apply here.   
+We will develop three microservices.  
+
+Our frontend where all the interaction with the normal user will take place, will be developed with the JavaScript library [React](https://reactjs.org/). It will be hosted in a container and provide a web user interface.
+
+The second service is a RESTful Web service that will handle the users and abstract a filesystem. The information about the individual users and all their files will be stored in a [MongoDB](https://www.mongodb.com/) database. The web interface will provide the frontend with all the needed information about folders and their content for authenticated users, but not the actual files.
+
+The actual files will be handled by the "DataHandler Service". This service will provide a interface to store and receive files. The files will be stored on disks. When the users tries to download or upload a file the "DataHandler Service" will also communicate with the RESTful Web service to guarantee authentication. 
+
+The whole architecture is also outlined in figure 1 for an easier overview.
+
+<figure>
+  <img src="/assets/diagrams/architecture-large-text.svg" style="filter:invert(1)"/>
+  <figcaption>Fig.1 - The basic architecture</figcaption>
+</figure>
+
+
+For the authentication we will be using two kind of tokens. One with an longer active time an one with an shorter one. When the user logs in with his username and password he will get a Refresh token, which has s longer active time an can be saved in the browser (with cookies for example). With this Refresh token he then will be able to request Access Token, those only last a short amount of time, but are necessary for all the Api requests involving the sensitive data. The backend will connect each Access Token with the correspondent user and make sure the user only has rights to access what he is supposed to be able to access. This process is also outlined in figure 2.
+
+<figure>
+  <img src="/assets/diagrams/auth-large-text.svg" style="filter:invert(1)"/>
+  <figcaption>Fig.2 - authentication workflow</figcaption>
+</figure>
+
+In order for our client to easily install our application we will provide docker images for all our services.  
+Those images will automatically be build for every release using GitHub Actions and published on a container registry.  
+The client will then just need to build and start the containers. All this will be done automatically by a script we will provide in our [ClientSetup](https://github.com/FileFighter/ClientSetup) repository. The script will initialize all necessary services, start the FileFighter nas and also periodical check for new versions of the services.
+
+The deployment process is also displayed [here](#7-deployment-view).
+
 ### MVC
-As mentioned the backend is using the MVC pattern. This enables a clean software architecture with separate model view and controller.
-
-### Front end
-tdb
-
-### Back end
-The back end is written in Java. As an addition we are using the framework [spring](https://spring.io) as well as the library [Spring Boot](https://spring.io/projects/spring-boot). One advantage of this usage is that Spring Boot and Spring are implementing the MCV software architecture by themself. As a database we use [MongoDB](https://www.mongodb.com/). 
+As mentioned already, our back end is written in Java. As an addition we are using the framework [spring](https://spring.io) as well as the library [Spring Boot](https://spring.io/projects/spring-boot). One advantage of this usage is that Spring Boot and Spring are implementing the MCV software architecture by themself. As a database we use [MongoDB](https://www.mongodb.com/). 
 The Server offers multiple REST APIs which are accessed by our front end. 
 MVC: 
 * Model: domain specific classes
