@@ -103,7 +103,7 @@ The logical view for our application follows the Spring Boot architecture and lo
 </figure>
 
 In our specific case the view however is not part of spring but provided separately as a web application front end.
-The front end application handles all the user interaction and independently handles the view coordination thus fulfilling the roles of view and dispatcher alike. However view and dispatcher do not interact with the client independently instead the dispatcher has been substituted by the ViewModel which connects the view and the model as describe above as well as forming the connection to the controller.
+The front end application handles all the user interaction and independently handles the view coordination thus fulfilling the roles of view and dispatcher alike. However view and dispatcher do not interact with the client independently instead the dispatcher has been substituted by the ViewModel which connects the view and the model as described above as well as forming the connection to the controller.
 However the frontend does not interact with the model itself. Model classes are duplicated into the fronted for consistency reasons but are only used to populate the corresponding views.
 Any actual manipulation of the model is handled by the backend.
 
