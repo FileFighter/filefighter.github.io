@@ -38,7 +38,7 @@ To always keep track of how much time you are spending for the different task yo
 
 <img src="/assets/images/blog-6/time.png">
 
-Our project overview can be found [here](https://dhbw-karlsruhe.myjetbrains.com/youtrack/dashboard?id=005597cb-b220-44de-826c-c318c2d86655){:target="_blank"} and our agile board [here](https://dhbw-karlsruhe.myjetbrains.com/youtrack/agiles/108-41/109-389){:target="_blank"}. 
+Our project overview can be found [here](https://dhbw-karlsruhe.myjetbrains.com/youtrack/dashboard?id=005597cb-b220-44de-826c-c318c2d86655){:target="_blank"} and our agile board [here](https://dhbw-karlsruhe.myjetbrains.com/youtrack/agiles/108-41){:target="_blank"}. 
 
 Maybe you need to login first.
 
