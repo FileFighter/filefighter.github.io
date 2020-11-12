@@ -189,7 +189,7 @@ Use cases that are out of scope:
 
 Each user will haven an account they can use to access their files. Therefore, they will need to login when using the application. This will be done with username and password. The login will also be cached in the browser, so you don't have to login every time when using the same browser. You will also be able to log out.
 
-[Login](/wiki/usecases/login.html)
+More about this Use Case [here](/wiki/usecases/login.html)
 
 #### 3.1.2 Register new user accounts
 
