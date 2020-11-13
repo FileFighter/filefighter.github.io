@@ -6,11 +6,12 @@ categories: pm
 issuelink: TBD
 ---
 Hello there,
-This week we wrote our Software Architecture Document (SAD). You can find our document [here](https://filefighter.github.io/wiki/arch).  
+This week we wrote our Software Architecture Document (SAD). You can find our document [here](https://filefighter.github.io/wiki/arch){:target="_blank"}.  
 Here is a screenshot of our IDE, to proof that we created the diagrams with the IDE.
 
 <img src="/assets/images/blog-7/blog_7_class.png" alt="">
 
+With IntelliJ IDEA Ultimate you can also easily generate a database schema by connection to the DB directly for the IDE, as described [here](https://www.jetbrains.com/help/idea/connecting-to-a-database.html){:target="_blank"}.
 <img src="/assets/images/blog-7/blog_7_er.png" alt="">
 
 Let us know if you think we can make it better.
