@@ -3,7 +3,7 @@ layout: post
 title: "Software Architecture Document (SAD)"
 author: open-schnick, valentin, Gimleux
 categories: pm
-issuelink: TBD
+issuelink: https://github.com/FileFighter/filefighter.github.io/issues/34
 ---
 Hello there,
 This week we wrote our Software Architecture Document (SAD). You can discover our document [here](https://filefighter.github.io/wiki/arch){:target="_blank"}.  
