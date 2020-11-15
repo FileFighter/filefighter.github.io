@@ -141,6 +141,13 @@ The different domains contain a view model often called DTO, "Data-Transfer-Obje
   <img src="/assets/diagrams/user_class_diagram.png" alt=""/>
 </figure>
 
+
+The full class diagram is displayed here. Click on the image to enlarge it.
+
+<a href="/assets/images/arch-doc/RestApplication.png">
+  <img src="/assets/images/arch-doc/RestApplication.png" alt=""/>
+</a>
+
 ## 6. Process View
 n/a
 
