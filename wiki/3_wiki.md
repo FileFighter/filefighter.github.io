@@ -77,21 +77,11 @@ For each file/folder the owner will be able to authorize other users to see or m
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 
-| Abbreviation | Explanation                            |
-| ----------- | -------------------------------------- |
-| SRS         | Software Requirements Specification    |
-| UC          | Use Case                               |
-| n/a         | not applicable                         |
-| tbd         | to be determined                       |
-| UCD         | overall Use Case Diagram               |
-| FAQ         | Frequently asked Questions             |
+{% include abbreviations.md %}
 
 ### 1.4 References
 
-| Title                                                              | Date       | Publishing organization   |
-| -------------------------------------------------------------------|:----------:| ------------------------- |
-| [FileFighter Blog](https://filefighter.github.io/)                 | 13.10.2020 | FileFighter               |
-| [GitHub](https://github.com/FileFighter)                           | 13.10.2020 | FileFighter               |
+{% include references.md %}
 
 
 ### 1.5 Overview
