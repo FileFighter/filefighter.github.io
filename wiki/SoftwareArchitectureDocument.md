@@ -40,23 +40,11 @@ This document describes the architecture of the FileFighter project.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 
-| Abbrevation | Description                            |
-| ----------- | -------------------------------------- |
-| API         | Application programming interface      |
-| MVC         | Model view controller                  |
-| REST        | Representational state transfer        |
-| SRS         | Software requirements specification    |
-| UC          | Use case                               |
-| VCS         | Version control system                 |
-| n/a         | not applicable                         |
-| tbd         | to be determined                       |
+{% include abbreviations.md %}
 
 ### 1.4 References
 
-| Title                                                              | Date       | Publishing organization   |
-| -------------------------------------------------------------------|:----------:| ------------------------- |
-| [FileFighter Blog](https://filefighter.github.io/)                 | 13.10.2020 | FileFighter               |
-| [GitHub](https://github.com/FileFighter)                           | 13.10.2020 | FileFighter               |
+{% include references.md %}
 
 
 ### 1.5 Overview
