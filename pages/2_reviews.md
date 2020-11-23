@@ -38,3 +38,11 @@ Here you can find a list of all the reviews we have given for other projects:
 ###### Week 6
 * [SimpleSurvey](https://simplesurveyproject.wordpress.com/2020/11/03/week-6){:target="_blank"}
 * [LazySmartPlants](https://lazysmartplants.wordpress.com/2020/11/06/week-6-project-management/){:target="_blank"}
+
+###### Week 7
+* [Live-Poll](https://blog.live-poll.de/week-6/){:target="_blank"}
+* [Place To Beer](https://placetobeer475840703.wordpress.com/2020/11/15/starting-to-code/){:target="_blank"}
+
+###### Week 8
+* [Camera-Observation-Tool](https://cameraobservationtool.wordpress.com/2020/11/22/database-spezification-class-diagram-week-7-8/){:target="_blank"}
+* [littleBeasts](https://littlebeastsgame.wordpress.com/2020/11/22/8th-week/comment-page-1/){:target="_blank"}
