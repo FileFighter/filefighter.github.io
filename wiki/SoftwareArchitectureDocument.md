@@ -124,9 +124,10 @@ Any actual manipulation of the model is handled by the backend.
 On this section you can find our class diagrams for the backend. We have clearly marked which parts fulfill the model, the view and the controller tasks.
 
 The different domains contain a view model often called DTO, "Data-Transfer-Object", as well as the models, called "Entities", that are persisted in the database. We highlighted the DTOs, Entities, and the controller parts. Below you can see one of our class diagrams for the back end. In this case it's the class diagram for the domain "user". 
+For visibility reasons we removed, test-, builder- and exception- / exception handler classes.
 
 <figure>
-  <img src="/assets/diagrams/user_class_diagram.png" alt=""/>
+  <img src="/assets/images/arch-doc/user_class_diagram.png" alt=""/>
 </figure>
 
 
