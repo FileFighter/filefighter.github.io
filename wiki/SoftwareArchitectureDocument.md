@@ -161,9 +161,12 @@ n/a
 ## 7. Deployment View
 Here you can see our deployment view diagram:
 
-<figure>
-  <img src="/assets/diagrams/deployment.svg" style="filter:invert(1)" alt=""/>
-</figure>
+
+
+
+<a href="/assets/diagrams/deployment.svg" data-lightbox="arch_image_set" data-title="Deployment">
+  <img src="/assets/diagrams/deployment.svg" alt="This is our logo" class="diagram" />
+</a>
 
 
 ## 8. Implementation View
