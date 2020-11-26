@@ -37,13 +37,15 @@ tdb
 tbd
 
 # 3. Special Requirements
-tbd
+The current user need to be an administrator.
 
 # 4. Preconditions
-tbd
+1. The user has visited the frontend.
+2. The user has logged in successfully and is an administrator.
+3. The users navigates to the 'create users' page and clicks.
 
 # 5. Postconditions
-tbd
+The new created user must be stored in the database.
 
 # 6. Function Points
 tbd
