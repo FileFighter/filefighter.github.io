@@ -109,16 +109,34 @@ n/a
 ## 5. Logical View
 
 ### 5.1 Overview
-The logical view for our application follows the Spring Boot architecture and looks like:
+Our application contains multiple services. Our front end consumes the views provided by our SpringBoot Backend and transforms them into a valid user interface.
+The front end application handles all the user interaction and independently handles the view coordination thus fulfilling the roles of view and dispatcher alike. However view and dispatcher do not interact with the client independently instead the dispatcher has been substituted by the ViewModel which connects the view and the model as described above as well as forming the connection to the controller.
 
 <figure>
   <img src="/assets/images/arch-doc/spring_boot_logical_view.png"  alt=""/>
 </figure>
 
-In our specific case the view however is not part of spring but provided separately as a web application front end.
-The front end application handles all the user interaction and independently handles the view coordination thus fulfilling the roles of view and dispatcher alike. However view and dispatcher do not interact with the client independently instead the dispatcher has been substituted by the ViewModel which connects the view and the model as described above as well as forming the connection to the controller.
-However the frontend does not interact with the model itself. Model classes are duplicated into the fronted for consistency reasons but are only used to populate the corresponding views.
-Any actual manipulation of the model is handled by the backend.
+More specifically we are using a slightly more detailed logic that can be seen here:
+
+<figure>
+  <img src="/assets/images/arch-doc/custommvc.png"  alt=""/>
+</figure>
+
+The main difference is that we use View-Models and Data-Models. View-Models, often called "DataTransferObjects" (DTOs), are instances of classes that are made for the customer / user of the endpoints. The Data-Models, often called "entities", are a representation of the data that is stored in the database. Entites are never leaked to the consumer and thus are never directly manipulated. Our business logic is transforming the entities to DTOs and visa versa, to be able to encapsulate certain information like passwords.
+In our specific case the views, provided by the back end, consist of the information stored in the DTOs formatted with the JavaScriptObjectNotation(JSON). 
+However, the frontend does not interact with the model itself. Model classes are duplicated into the fronted for consistency reasons but are only used to populate the corresponding views.
+Any actual manipulation of the view model is handled by the backend.
+
+
+To populate the corresponding views the frontend will store the data using Redux.
+ After requesting data from the backend the frontend will dispatch action with the data. 
+ Those actions will then be processed by reducers and written to the JSON store. 
+ The views will then take the data from this store. 
+
+<figure>
+  <img src="/assets/images/arch-doc/fe-mvc.png"  alt=""/>
+</figure>
+
 
 ### 5.2 Architecturally Significant Design Packages
 On this section you can find our class diagrams for the backend. We have clearly marked which parts fulfill the model, the view and the controller tasks.
