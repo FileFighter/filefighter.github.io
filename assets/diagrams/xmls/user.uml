@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>de.filefighter.rest.domain.user</OriginalElement>
+  <nodes>
+    <node x="1559.0166666666669" y="1255.0">de.filefighter.rest.domain.user.rest.UserRestServiceInterface</node>
+    <node x="1016.6666666666667" y="452.0">de.filefighter.rest.domain.user.data.dto.User</node>
+    <node x="207.70186202686227" y="518.0">de.filefighter.rest.domain.user.data.persistance.UserRepository</node>
+    <node x="1911.1003052503054" y="1500.0">de.filefighter.rest.domain.user.rest.UserRestController</node>
+    <node x="929.56510989011" y="121.0">de.filefighter.rest.domain.user.group.Groups</node>
+    <node x="662.7351953601958" y="1500.0">de.filefighter.rest.domain.user.rest.UserRestService</node>
+    <node x="505.6666666666668" y="937.0">de.filefighter.rest.domain.user.business.UserDtoService</node>
+    <node x="363.19010989010985" y="0.0">de.filefighter.rest.domain.user.data.persistance.UserEntity</node>
+    <node x="69.70186202686227" y="1277.0">de.filefighter.rest.domain.user.business.UserAuthorizationService</node>
+    <node x="1272.0166666666669" y="816.0">de.filefighter.rest.domain.user.data.dto.UserRegisterForm</node>
+    <node x="754.6666666666667" y="551.0">de.filefighter.rest.domain.user.group.GroupRepository</node>
+    <node x="678.6601953601958" y="1244.0">de.filefighter.rest.domain.user.business.UserBusinessService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="de.filefighter.rest.domain.user.business.UserAuthorizationService" target="de.filefighter.rest.domain.user.data.dto.User">
+      <point x="203.57142857142844" y="-60.0" />
+      <point x="510.7732905982907" y="1224.0" />
+      <point x="722.1666666666667" y="1224.0" />
+      <point x="722.1666666666667" y="796.0" />
+      <point x="1066.4166666666667" y="796.0" />
+      <point x="-49.75" y="137.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.rest.UserRestService" target="de.filefighter.rest.domain.user.rest.UserRestServiceInterface">
+      <point x="323.75" y="-82.0" />
+      <point x="1356.4851953601958" y="1480.0" />
+      <point x="1682.3500000000004" y="1480.0" />
+      <point x="-246.66666666666666" y="82.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.data.persistance.UserRepository" target="de.filefighter.rest.domain.user.data.persistance.UserEntity">
+      <point x="0.0" y="-71.0" />
+      <point x="426.2018620268623" y="392.0" />
+      <point x="459.19010989010985" y="392.0" />
+      <point x="-32.0" y="181.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserBusinessService" target="de.filefighter.rest.domain.user.data.persistance.UserRepository">
+      <point x="-147.60000000000014" y="-93.0" />
+      <point x="695.0601953601956" y="1194.0" />
+      <point x="327.3455128205128" y="1194.0" />
+      <point x="327.3455128205128" y="796.0" />
+      <point x="389.78519536019553" y="796.0" />
+      <point x="-36.41666666666674" y="71.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserAuthorizationService" target="de.filefighter.rest.domain.user.data.persistance.UserRepository">
+      <point x="-67.85714285714266" y="-60.0" />
+      <point x="239.3447191697196" y="1224.0" />
+      <point x="242.25" y="1224.0" />
+      <point x="242.25" y="796.0" />
+      <point x="244.11852869352902" y="796.0" />
+      <point x="-182.08333333333326" y="71.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.data.dto.User" target="de.filefighter.rest.domain.user.group.Groups">
+      <point x="-49.75" y="-137.0" />
+      <point x="1066.4166666666667" y="432.0" />
+      <point x="1037.5651098901099" y="432.0" />
+      <point x="12.0" y="60.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserBusinessService" target="de.filefighter.rest.domain.user.group.GroupRepository">
+      <point x="49.200000000000045" y="-93.0" />
+      <point x="891.8601953601958" y="1194.0" />
+      <point x="983.7964590964593" y="1194.0" />
+      <point x="983.7964590964593" y="776.0" />
+      <point x="966.4166666666667" y="776.0" />
+      <point x="90.75" y="38.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.rest.UserRestServiceInterface" target="de.filefighter.rest.domain.user.data.dto.UserRegisterForm">
+      <point x="-185.0" y="-82.0" />
+      <point x="1744.0166666666669" y="1224.0" />
+      <point x="1438.2666666666669" y="1224.0" />
+      <point x="33.25" y="159.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.rest.UserRestController" target="de.filefighter.rest.domain.user.rest.UserRestServiceInterface">
+      <point x="-190.875" y="-82.0" />
+      <point x="1974.7253052503054" y="1480.0" />
+      <point x="1929.0166666666669" y="1480.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserDtoService" target="de.filefighter.rest.domain.user.data.persistance.UserEntity">
+      <point x="-17.166666666666742" y="-38.0" />
+      <point x="591.5" y="756.0" />
+      <point x="655.2018620268623" y="756.0" />
+      <point x="655.2018620268623" y="392.0" />
+      <point x="523.1901098901099" y="392.0" />
+      <point x="32.0" y="181.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserAuthorizationService" target="de.filefighter.rest.domain.user.group.Groups">
+      <point x="-135.71428571428555" y="-60.0" />
+      <point x="171.48757631257672" y="1224.0" />
+      <point x="133.5" y="1224.0" />
+      <point x="133.5" y="402.0" />
+      <point x="941.56510989011" y="402.0" />
+      <point x="-84.0" y="60.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.rest.UserRestService" target="de.filefighter.rest.domain.user.business.UserBusinessService">
+      <point x="-138.75" y="-82.0" />
+      <point x="893.9851953601958" y="1460.0" />
+      <point x="760.6601953601958" y="1460.0" />
+      <point x="-82.0" y="93.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserDtoService" target="de.filefighter.rest.domain.user.data.persistance.UserRepository">
+      <point x="-85.83333333333326" y="-38.0" />
+      <point x="522.8333333333335" y="796.0" />
+      <point x="462.618528693529" y="796.0" />
+      <point x="36.41666666666674" y="71.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.rest.UserRestService" target="de.filefighter.rest.domain.user.business.UserAuthorizationService">
+      <point x="-231.25" y="-82.0" />
+      <point x="801.4851953601958" y="1470.0" />
+      <point x="425.9518620268623" y="1470.0" />
+      <point x="118.75" y="60.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.group.GroupRepository" target="de.filefighter.rest.domain.user.group.Groups">
+      <point x="-80.66666666666674" y="-38.0" />
+      <point x="795.0" y="412.0" />
+      <point x="965.56510989011" y="412.0" />
+      <point x="-60.0" y="60.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserAuthorizationService" target="de.filefighter.rest.domain.user.data.persistance.UserEntity">
+      <point x="-203.57142857142844" y="-60.0" />
+      <point x="103.63043345543383" y="1224.0" />
+      <point x="0.0" y="1224.0" />
+      <point x="0.0" y="392.0" />
+      <point x="395.19010989010985" y="392.0" />
+      <point x="-96.0" y="181.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserBusinessService" target="de.filefighter.rest.domain.user.business.UserDtoService">
+      <point x="-82.0" y="-93.0" />
+      <point x="760.6601953601958" y="1174.0" />
+      <point x="685.9166666666667" y="1174.0" />
+      <point x="77.25" y="38.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserDtoService" target="de.filefighter.rest.domain.user.data.dto.User">
+      <point x="85.83333333333326" y="-38.0" />
+      <point x="694.5" y="786.0" />
+      <point x="1033.25" y="786.0" />
+      <point x="-82.91666666666674" y="137.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.rest.UserRestController" target="de.filefighter.rest.domain.user.data.dto.User">
+      <point x="190.875" y="-82.0" />
+      <point x="2356.4753052503056" y="1480.0" />
+      <point x="2320.516666666667" y="1480.0" />
+      <point x="2320.516666666667" y="776.0" />
+      <point x="1199.0833333333335" y="776.0" />
+      <point x="82.91666666666674" y="137.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserBusinessService" target="de.filefighter.rest.domain.user.data.persistance.UserEntity">
+      <point x="-16.40000000000009" y="-93.0" />
+      <point x="826.2601953601957" y="1154.0" />
+      <point x="744.1666666666667" y="1154.0" />
+      <point x="744.1666666666667" y="382.0" />
+      <point x="587.1901098901099" y="382.0" />
+      <point x="96.0" y="181.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.rest.UserRestService" target="de.filefighter.rest.domain.user.data.dto.UserRegisterForm">
+      <point x="138.75" y="-82.0" />
+      <point x="1171.4851953601958" y="1460.0" />
+      <point x="1371.7666666666669" y="1460.0" />
+      <point x="-33.25" y="159.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.rest.UserRestController" target="de.filefighter.rest.domain.user.data.dto.UserRegisterForm">
+      <point x="63.625" y="-82.0" />
+      <point x="2229.2253052503056" y="1480.0" />
+      <point x="2309.516666666667" y="1480.0" />
+      <point x="2309.516666666667" y="1214.0" />
+      <point x="1504.7666666666669" y="1214.0" />
+      <point x="99.75" y="159.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.rest.UserRestService" target="de.filefighter.rest.domain.user.group.Groups">
+      <point x="231.25" y="-82.0" />
+      <point x="1263.9851953601958" y="1470.0" />
+      <point x="1548.5166666666669" y="1470.0" />
+      <point x="1548.5166666666669" y="402.0" />
+      <point x="1109.5651098901099" y="402.0" />
+      <point x="84.0" y="60.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserBusinessService" target="de.filefighter.rest.domain.user.group.Groups">
+      <point x="114.79999999999995" y="-93.0" />
+      <point x="957.4601953601957" y="1214.0" />
+      <point x="1226.1666666666667" y="1214.0" />
+      <point x="1226.1666666666667" y="412.0" />
+      <point x="1085.5651098901099" y="412.0" />
+      <point x="60.0" y="60.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserBusinessService" target="de.filefighter.rest.domain.user.data.dto.User">
+      <point x="82.0" y="-93.0" />
+      <point x="924.6601953601958" y="1204.0" />
+      <point x="1099.5833333333335" y="1204.0" />
+      <point x="-16.583333333333258" y="137.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.rest.UserRestService" target="de.filefighter.rest.domain.user.data.dto.User">
+      <point x="46.25" y="-82.0" />
+      <point x="1078.9851953601958" y="1450.0" />
+      <point x="1261.5166666666669" y="1450.0" />
+      <point x="1261.5166666666669" y="796.0" />
+      <point x="1132.75" y="796.0" />
+      <point x="16.583333333333258" y="137.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserBusinessService" target="de.filefighter.rest.domain.user.data.dto.UserRegisterForm">
+      <point x="147.5999999999999" y="-93.0" />
+      <point x="990.2601953601957" y="1224.0" />
+      <point x="1305.2666666666669" y="1224.0" />
+      <point x="-99.75" y="159.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserDtoService" target="de.filefighter.rest.domain.user.group.GroupRepository">
+      <point x="51.5" y="-38.0" />
+      <point x="660.1666666666667" y="776.0" />
+      <point x="845.4166666666667" y="776.0" />
+      <point x="-30.25" y="38.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.rest.UserRestServiceInterface" target="de.filefighter.rest.domain.user.data.dto.User">
+      <point x="185.0" y="-82.0" />
+      <point x="2114.016666666667" y="786.0" />
+      <point x="1165.9166666666667" y="786.0" />
+      <point x="49.75" y="137.0" />
+    </edge>
+    <edge source="de.filefighter.rest.domain.user.business.UserAuthorizationService" target="de.filefighter.rest.domain.user.business.UserDtoService">
+      <point x="67.85714285714289" y="-60.0" />
+      <point x="375.05900488400516" y="1204.0" />
+      <point x="531.4166666666667" y="1204.0" />
+      <point x="-77.25" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5172209026128266" x="1210.5" y="832.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
