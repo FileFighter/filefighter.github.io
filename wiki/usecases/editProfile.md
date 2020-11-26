@@ -22,7 +22,9 @@ tbd
 ## 2.1 Basic Flow
 
 ### Activity Diagram
-
+<figure>
+  <img src="/assets/diagrams/activity/changeProfile.svg" style="filter:invert(1);width:100%" alt="Activity Diagram" />
+</figure>
 
 ### .feature File
 
