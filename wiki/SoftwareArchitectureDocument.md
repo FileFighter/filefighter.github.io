@@ -127,6 +127,17 @@ In our specific case the views, provided by the back end, consist of the informa
 However, the frontend does not interact with the model itself. Model classes are duplicated into the fronted for consistency reasons but are only used to populate the corresponding views.
 Any actual manipulation of the view model is handled by the backend.
 
+
+To populate the corresponding views the frontend will store the data using Redux.
+ After requesting data from the backend the frontend will dispatch action with the data. 
+ Those actions will then be processed by reducers and written to the JSON store. 
+ The views will then take the data from this store. 
+
+<figure>
+  <img src="/assets/images/arch-doc/fe-mvc.png"  alt=""/>
+</figure>
+
+
 ### 5.2 Architecturally Significant Design Packages
 On this section you can find our class diagrams for the backend. We have clearly marked which parts fulfill the model, the view and the controller tasks.
 
