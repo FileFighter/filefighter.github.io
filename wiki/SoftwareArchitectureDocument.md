@@ -59,12 +59,12 @@ This project uses the MVC Pattern for the back end (Spring Boot). So the model (
 ## 3. Architectural Goals and Constraints
 
 Our architecture is based on microservices. Microservices are defined as independent small applications, that serve a special purpose. This gives us the ability to develop each service independently and even with different technologies.  
-To be able to setup and deploy the whole application we will be using [Docker](https://www.docker.com/). That way we can manage CI/CD, pipelines, and different versions of the services independently. The main reason for using Docker is how easy it is to use as a Client. The dependencies needed to host the whole application are reduced to only docker. Furthermore, all the typical advantages of Docker apply here.   
+To be able to setup and deploy the whole application we will be using [Docker](https://www.docker.com/){:target="_blank"}. That way we can manage CI/CD, pipelines, and different versions of the services independently. The main reason for using Docker is how easy it is to use as a Client. The dependencies needed to host the whole application are reduced to only docker. Furthermore, all the typical advantages of Docker apply here.   
 We will develop three microservices.  
 
 Our frontend where all the interaction with the normal user will take place, will be developed with the JavaScript library [React](https://reactjs.org/). It will be hosted in a container and provide a web user interface.
 
-The second service is a RESTful Web service that will handle the users and abstract a filesystem. The information about the individual users and all their files will be stored in a [MongoDB](https://www.mongodb.com/) database. The web interface will provide the frontend with all the needed information about folders and their content for authenticated users, but not the actual files.
+The second service is a RESTful Web service that will handle the users and abstract a filesystem. The information about the individual users and all their files will be stored in a [MongoDB](https://www.mongodb.com/){:target="_blank"} database. The web interface will provide the frontend with all the needed information about folders and their content for authenticated users, but not the actual files.
 
 The actual files will be handled by the "DataHandler Service". This service will provide a interface to store and receive files. The files will be stored on disks. When the users tries to download or upload a file the "DataHandler Service" will also communicate with the RESTful Web service to guarantee authentication. 
 
@@ -85,12 +85,12 @@ For the authentication we will be using two kind of tokens. One with an longer a
 
 In order for our client to easily install our application we will provide docker images for all our services.  
 Those images will automatically be build for every release using GitHub Actions and published on a container registry.  
-The client will then just need to build and start the containers. All this will be done automatically by a script we will provide in our [ClientSetup](https://github.com/FileFighter/ClientSetup) repository. The script will initialize all necessary services, start the FileFighter nas and also periodical check for new versions of the services.
+The client will then just need to build and start the containers. All this will be done automatically by a script we will provide in our [ClientSetup](https://github.com/FileFighter/ClientSetup){:target="_blank"} repository. The script will initialize all necessary services, start the FileFighter nas and also periodical check for new versions of the services.
 
 The deployment process is also displayed [here](#7-deployment-view).
 
 ### MVC
-As mentioned already, our back end is written in Java. As an addition we are using the framework [spring](https://spring.io) as well as the library [Spring Boot](https://spring.io/projects/spring-boot). One advantage of this usage is that Spring Boot and Spring are implementing the MCV software architecture by themself. As a database we use [MongoDB](https://www.mongodb.com/). 
+As mentioned already, our back end is written in Java. As an addition we are using the framework [spring](https://spring.io){:target="_blank"} as well as the library [Spring Boot](https://spring.io/projects/spring-boot){:target="_blank"}. One advantage of this usage is that Spring Boot and Spring are implementing the MCV software architecture by themself. As a database we use [MongoDB](https://www.mongodb.com/){:target="_blank"}. 
 The Server offers multiple REST APIs which are accessed by our front end. 
 MVC: 
 * Model: domain specific classes
@@ -128,7 +128,7 @@ However, the frontend does not interact with the model itself. Model classes are
 Any actual manipulation of the view model is handled by the backend.
 
 
-To populate the corresponding views the frontend will store the data using Redux.
+To populate the corresponding views the frontend will store the data using [Redux](https://redux.js.org/){:target="_blank"}.
  After requesting data from the backend the frontend will dispatch action with the data. 
  Those actions will then be processed by reducers and written to the JSON store. 
  The views will then take the data from this store. 
@@ -185,4 +185,4 @@ n/a
 
 ## 11. Quality/Metrics
 The application is being measured in terms of complexity, coupling and cohesion. Due to the MVC Pattern the backend is unproblematic regarding any of these metrics. The web application makes it more difficult to achieve similarly good metrics for the frontend. Handling the UI elements requires many method calls from framework classes, contexts and views have to be handled and passed which increases all the above mentioned metrics. However, we have committed to still avoid high ratings in these categories even though we could not prevent several classes to be rated medium-high.  
-Our Code in front and back end is constantly check by [codefactor.io](https://www.codefactor.io/). The back end is also providing a "health" endpoint, that is displaying status information about data integrity, uptime, user count, used storage and more. This way the customers can see the information like a metric about the system. 
+Our Code in front and back end is constantly check by our own instance of [SonarQube](http://filefighter.ddns.net:9000/){:target="_blank"}. The back end is also providing a "health" endpoint, that is displaying status information about data integrity, uptime, user count, used storage and more. This way the customers can see this information via the endpoint or via the metrics provided by our front end.
