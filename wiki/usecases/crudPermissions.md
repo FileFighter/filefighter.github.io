@@ -37,13 +37,16 @@ tbd
 tbd
 
 # 3. Special Requirements
-tbd
+The user exists.
+The user is owner of the files he wants to change the permissions of.
 
 # 4. Preconditions
-tbd
+1. The user has visited the frontend.
+2. The user has logged in successfully.
+3. The users navigates to the 'files' page and clicks on the edit permissions button of a file.
 
 # 5. Postconditions
-tbd
+The new permissins for the files or folders are stored in the database.
 
 # 6. Function Points
 tbd

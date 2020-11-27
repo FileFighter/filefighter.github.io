@@ -22,7 +22,9 @@ tbd
 ## 2.1 Basic Flow
 
 ### Activity Diagram
-
+<figure>
+  <img src="/assets/diagrams/activity/changeProfile.svg" style="filter:invert(1);width:100%" alt="Activity Diagram" />
+</figure>
 
 ### .feature File
 
@@ -34,14 +36,15 @@ tbd
 tbd
 
 # 3. Special Requirements
-tbd
+The user need an account.
 
 # 4. Preconditions
-tbd
+1. The user has visited the frontend.
+2. The user has logged in successfully.
+3. The users navigates to the 'profile' page and clicks on the edit button.
 
 # 5. Postconditions
-tbd
-
+The updated information are stored in the database and updated in the frontend.
 # 6. Function Points
 tbd
 

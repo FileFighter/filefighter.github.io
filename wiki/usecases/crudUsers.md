@@ -15,14 +15,16 @@ To give another user permissions for a file, you first need to find this user by
 tdb
 
 ## 1.3 Screenshot
-tbd
+![register view](/assets/images/blog-8/register.png)
 
 # 2. Flow of Events
 
 ## 2.1 Basic Flow
 
 ### Activity Diagram
-
+<figure>
+  <img src="/assets/diagrams/activity/register.svg" style="filter:invert(1);width:100%" alt="Activity Diagram" />
+</figure>
 
 ### .feature Files
 
@@ -35,13 +37,15 @@ tbd
 tbd
 
 # 3. Special Requirements
-tbd
+The current user need to be an administrator.
 
 # 4. Preconditions
-tbd
+1. The user has visited the frontend.
+2. The user has logged in successfully and is an administrator.
+3. The users navigates to the 'create users' page and clicks.
 
 # 5. Postconditions
-tbd
+The new created user must be stored in the database.
 
 # 6. Function Points
 tbd

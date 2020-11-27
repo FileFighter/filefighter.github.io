@@ -162,6 +162,12 @@ n/a
 Here you can see our deployment view diagram:
 
 <figure>
+  <img src="/assets/images/arch-doc/deployment.svg" style="filter:invert(1)" alt=""/>
+</figure>
+
+And here the flow of realising new versions.
+
+<figure>
   <img src="/assets/diagrams/deployment.svg" style="filter:invert(1)" alt=""/>
 </figure>
 

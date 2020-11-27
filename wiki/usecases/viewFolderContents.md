@@ -36,13 +36,16 @@ tbd
 tbd
 
 # 3. Special Requirements
-tbd
+The user exists.
+
 
 # 4. Preconditions
-tbd
+1. The user has visited the frontend.
+2. The user has logged in successfully.
+3. The users navigates to the 'files' page (if the url indicates a file location this will happen automatically).
 
 # 5. Postconditions
-tbd
+The user can now perform multiple file actions.
 
 # 6. Function Points
 tbd
