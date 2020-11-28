@@ -71,16 +71,20 @@ The actual files will be handled by the "DataHandler Service". This service will
 The whole architecture is also outlined in figure 1 for an easier overview.
 
 <figure>
+<a href="/assets/diagrams/architecture-large-text.svg"  data-lightbox="arch">
   <img src="/assets/diagrams/architecture-large-text.svg" style="filter:invert(1)"/>
   <figcaption>Fig.1 - The basic architecture</figcaption>
+  </a>
 </figure>
 
 
 For the authentication we will be using two kind of tokens. One with an longer active time an one with an shorter one. When the user logs in with his username and password he will get a Refresh token, which has s longer active time an can be saved in the browser (with cookies for example). With this Refresh token he then will be able to request Access Token, those only last a short amount of time, but are necessary for all the Api requests involving the sensitive data. The backend will connect each Access Token with the correspondent user and make sure the user only has rights to access what he is supposed to be able to access. This process is also outlined in figure 2.
 
 <figure>
+<a href="/assets/diagrams/auth-large-text.svg" data-lightbox="arch">
   <img src="/assets/diagrams/auth-large-text.svg" style="filter:invert(1)"/>
   <figcaption>Fig.2 - authentication workflow</figcaption>
+  </a>
 </figure>
 
 In order for our client to easily install our application we will provide docker images for all our services.  
@@ -100,7 +104,9 @@ MVC:
 ## 4. Use-Case View
 
 <figure>
+<a href="/assets/diagrams/usecases.svg" data-lightbox="arch">
   <img src="/assets/diagrams/usecases.svg"  alt=""/>
+  </a>
 </figure>
 
 ### 4.1 Use-Case Realizations
@@ -134,7 +140,9 @@ To populate the corresponding views the frontend will store the data using [Redu
  The views will then take the data from this store. 
 
 <figure>
+<a href="/assets/images/arch-doc/fe-mvc.png" data-lightbox="arch">
   <img src="/assets/images/arch-doc/fe-mvc.png"  alt=""/>
+  </a>
 </figure>
 
 
@@ -145,7 +153,9 @@ The different domains contain a view model often called DTO, "Data-Transfer-Obje
 For visibility reasons we removed, test-, builder- and exception- / exception handler classes.
 
 <figure>
+<a href="/assets/images/arch-doc/user_class_diagram.png" data-lightbox="arch">
   <img src="/assets/images/arch-doc/user_class_diagram.png" alt=""/>
+  </a>
 </figure>
 
 
@@ -162,13 +172,17 @@ n/a
 Here you can see our deployment view diagram:
 
 <figure>
+<a href="/assets/images/arch-doc/deployment.svg" data-lightbox="arch">
   <img src="/assets/images/arch-doc/deployment.svg" style="filter:invert(1)" alt=""/>
+  </a>
 </figure>
 
 And here the flow of realising new versions.
 
 <figure>
+<a href="/assets/diagrams/deployment.svg" data-lightbox="arch">
   <img src="/assets/diagrams/deployment.svg" style="filter:invert(1)" alt=""/>
+  </a>
 </figure>
 
 
