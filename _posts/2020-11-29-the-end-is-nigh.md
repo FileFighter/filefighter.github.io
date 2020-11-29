@@ -3,8 +3,8 @@ layout: post
 title: "The end (of the first semester) is nigh"
 author: valentin
 categories: tech
+issuelink: https://github.com/FileFighter/filefighter.github.io/issues/50
 ---
-
 
 Hi there, 
 this week we noticed that midterm is coming pretty soon. So we want to take this time to take a look at what we achieved by now.
