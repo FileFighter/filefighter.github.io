@@ -29,9 +29,10 @@ We are already able to execute the test locally and with GitHub Actions (see the
 <img src="/assets/images/cucumberTests/runningTestsGHActions.png">
 
 Here you can see a screen cast of the running tests.
-<a href="/assets/screencasts/cucumberTests.gif">
+<a href="/assets/screencasts/cucumberTests.gif" data-lightbox="gif" >
     <img src="/assets/screencasts/cucumberTests.gif"/>
 </a>
+
 
 #### Blogging tip of the Day [0]!
 Do you want to embed a piece of code directly into your blog? Well with [gist-it](https://gist-it.appspot.com/){:target="_blank"} you easily can. It is as simple as pasting a link into your html. The content will be taken directly from your GitHub repo and will update as you change it! It also looks really cool with proper syntax highlighting.
