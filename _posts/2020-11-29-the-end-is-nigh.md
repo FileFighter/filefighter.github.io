@@ -9,7 +9,7 @@ issuelink: https://github.com/FileFighter/filefighter.github.io/issues/50
 Hi there, 
 this week we noticed that midterm is coming pretty soon. So we want to take this time to take a look at what we achieved by now.
 
-We have chosen the framework [spring](https://spring.io){:target="_blank"} as well as the library [Spring Boot](https://spring.io/projects/spring-boot){:target="_blank"} for our backend.
+We have chosen the framework [Spring](https://spring.io){:target="_blank"} as well as the library [Spring Boot](https://spring.io/projects/spring-boot){:target="_blank"} for our backend.
 For the frontend we are using the JavaScript library [ReactJS](https://reactjs.org/){:target="_blank"} with some more libraries to extend it.
 
 
