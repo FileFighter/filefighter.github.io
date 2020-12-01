@@ -10,8 +10,7 @@ Our solution is developed with families in mind, which want to use their own NAS
 
 We are upset about Dropbrox / Google Drive and all other large free services logging all our Data. Therefore, we will create our own.
 Luckily you don't have to do the same. You can easily use our software and set up your own instance of the FileFighter-Cloud! 
-Because out application will be opensource only, you can checkout our code. You will see that we removed all kinds of data-collecting or spying software from dependencies and of course our own code.
-We will guarantee that no data will collected by us or other companies. You can enjoy the absolute control about your files as you choose where the servers will be running, and where the files will be stored. You could even run everything on a [Raspberry Pi](https://www.raspberrypi.org/){:target="_blank"} in your local network.
+Because out application will be opensource only, you can checkout our code. As you might see we removed all kinds of data-collecting or spying software from third-party dependencies. We will guarantee that no data will collected by us or other companies. You can enjoy the absolute control about your files as you choose where the servers will be running, and where the files will be stored. You could even run everything on a [Raspberry Pi](https://www.raspberrypi.org/){:target="_blank"} in your local network.
 Talking about security, all of your files will be only accessable with a password.
 
 ### Features:
