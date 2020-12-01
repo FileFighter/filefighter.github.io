@@ -46,3 +46,7 @@ Here you can find a list of all the reviews we have given for other projects:
 ###### Week 8
 * [Camera-Observation-Tool](https://cameraobservationtool.wordpress.com/2020/11/22/database-spezification-class-diagram-week-7-8/){:target="_blank"}
 * [littleBeasts](https://littlebeastsgame.wordpress.com/2020/11/22/8th-week/comment-page-1/){:target="_blank"}
+
+###### Week 9
+* [Träwelling](https://traewelling.wordpress.com/2020/11/25/week-7/){:target="_blank"}
+* [SweatForSuccess](https://sweatforsuccess689030981.wordpress.com/2020/11/29/w9-more-use-cases/){:target="_blank"}
