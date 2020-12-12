@@ -159,10 +159,10 @@ Until December, we plan to implement:
  * 3.1.2 Create user accounts
  * 3.1.3 View folder contents
  * 3.1.4 Edit (rename/delete) files
- * 3.1.5 Edit permission (viewing or editing) of files for users or groups
- * 3.1.6 Sort folder contents
+ * 3.1.5 Sort folder contents
 
 Until June, we want to implement:
+ * 3.1.6 Edit permission (viewing or editing) of files for users or groups
  * 3.1.7 Show own profile
  * 3.1.8 Edit profile information (change password etc.)
  * 3.1.9 Download files
@@ -201,13 +201,13 @@ The user will then be able to rename or delete the files he is seeing, if he als
 
 <!-- More about this Use Case -->
 
-#### 3.1.5 Edit permission (viewing or editing) of files for users or groups
+#### 3.1.6 Edit permission (viewing or editing) of files for users or groups
 
 The owner of a file (the person who uploaded the file) will be able to permit other users to see and edit his files. This will be managed for folders and their content or individual files. He can permit it to single users or a certain group of users (administrators/internal users/external users).
 
 More about this Use Case [here](/wiki/usecases/crudPermissions.html).
 
-#### 3.1.6 Sort folder contents
+#### 3.1.5 Sort folder contents
 
 To easily find files you will also be able to sort the files in the current folder by different values like filename or last edited.
 
