@@ -9,7 +9,7 @@ issuelink: https://github.com/FileFighter/filefighter.github.io/issues/38
 Hi there,
 this week we just want to give you a quick update about the development status, as we finished the [SAD](https://filefighter.github.io/wiki/arch){:target="_blank"} already last week.  
 
-For our backend we finished 3 use cases, all involving users (login, register and edit profile) and put a lot of effort in writing test, resulting in a coverage of about 60% currently. We also setup sonarqube already, which you can find [here](http://filefighter.ddns.net:9000/dashboard?id=de.filefighter%3Arest){:target="_blank"}. 
+For our backend we finished 3 use cases, all involving users (login, register and edit profile) and put a lot of effort in writing test, resulting in a coverage of about 60% currently. We also setup sonarqube already, which you can find [here](https://sonar.filefighter.de/dashboard?id=de.filefighter%3Arest){:target="_blank"}. 
 
 For the frontend we implemented the login, and the management of data across different views. We also created the fist views (one is displayed below), but design will come later.  
 ![register view](/assets/images/blog-8/register.png)
