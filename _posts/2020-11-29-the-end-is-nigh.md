@@ -24,7 +24,7 @@ Also check out our [SAD](https://filefighter.github.io/wiki/arch){:target="_blan
 
 
 
-#### Blogging tip of the Day [2]!
+#### Blogging tip of the Day [3]!
 Writing all those blog posts can be quite challenging sometimes, especially if you are not a native english speaker.
 To prevent simple mistakes like spelling you just need to use the right tools that can help you.
  One favorite for me to do this is IntelliJ IDEA Ultimate which checks not only your code but also your spelling.
