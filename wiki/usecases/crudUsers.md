@@ -17,6 +17,10 @@ tdb
 ## 1.3 Screenshot
 ![register view](/assets/images/blog-8/register.png)
 
+## 1.4 Interactive Demo
+<iframe src="https://storybook.filefighter.de/iframe.html?id=registration--default&viewMode=story" style="width:100%;height:700px;border:none"></iframe>
+
+
 # 2. Flow of Events
 
 ## 2.1 Basic Flow
