@@ -18,6 +18,10 @@ The users will see all the files and subfolders he can access. He will also be a
 ## 1.3 Screenshot
 tbd
 
+## 1.4 Interactive Demo
+<iframe src="https://storybook.filefighter.de/iframe.html?id=filesystem--default&viewMode=story" style="width:100%;height:700px;border:none"></iframe>
+
+
 # 2. Flow of Events
 
 ## 2.1 Basic Flow
