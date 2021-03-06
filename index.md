@@ -23,4 +23,5 @@ For further information about this project, the development process, or the feat
 
 <h2>Feedback</h2>
 Do you want to give us feedback about our project, blog or code?  
-Read [here](https://filefighter.github.io/reviews/){:target="_blank"} if you want to know how.
+You can either leave a comment on the blog pages, open an new issue, or write us an email.  
+You can also see the feedback we gave other blogs [here](https://filefighter.github.io/reviews/){:target="_blank"}.
