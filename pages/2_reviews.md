@@ -3,13 +3,10 @@ layout: page
 title: Reviews
 permalink: /reviews/
 ---
-On some of our blog pages, you can comment. To do that use the link on the bottom of the page.  
-The links will be different for every page, taking you to our [github repository](https://github.com/FileFighter/filefighter.github.io/){:target="_blank"} and to the [discussions tab](https://github.com/FileFighter/filefighter.github.io/discussions){:target="_blank"}.  
-For each page there will be a different thread where you can comment and discuss them.
+On most of our blog pages, you can leave a comment. To do that just authorize the github bot, create an issue or write us an email. 
 
 To give us general feedback, you can create a new discussion in our [discussions tab](https://github.com/FileFighter/filefighter.github.io/discussions){:target="_blank"}.
 There you can also find all the previous threads.
-
 
 ### Given Reviews
 
