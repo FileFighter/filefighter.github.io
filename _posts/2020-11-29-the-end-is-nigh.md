@@ -19,7 +19,7 @@ Here is a short screencast of our frontend:
 
 <a href="/assets/screencasts/fe-demo.gif" data-lightbox="demo" ><img src="/assets/screencasts/fe-demo.gif"></a>
 
-Also check out our [SAD](https://filefighter.github.io/wiki/arch){:target="_blank"} document which we extended again. We added the deployment view and described the mvc pattern with more detail. The documentation of the UCs also got an update.
+Also check out our [SAD](/wiki/arch){:target="_blank"} document which we extended again. We added the deployment view and described the mvc pattern with more detail. The documentation of the UCs also got an update.
 
 
 
