@@ -6,7 +6,7 @@ categories: pm
 issuelink: https://github.com/FileFighter/filefighter.github.io/issues/34
 ---
 Hello there,
-This week we wrote our Software Architecture Document (SAD). You can discover our document [here](https://filefighter.github.io/wiki/arch){:target="_blank"}.  
+This week we wrote our Software Architecture Document (SAD). You can discover our document [here](/wiki/arch){:target="_blank"}.  
 Here is a screenshot of our IDE, to proof that we created the diagrams with the IDE.
 
 <img src="/assets/images/blog-7/blog_7_class.png" alt="Image of diagrams in IDE">
