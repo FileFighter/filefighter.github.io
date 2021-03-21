@@ -4,7 +4,7 @@ FileFighter's adventure journal
 ![Link Snitch](https://github.com/FileFighter/filefighter.github.io/workflows/Link%20Snitch/badge.svg)
 
 ## Blog
-Do you want to read our blog? Feel free to do so, and checkout out blog at : <a href="https://blog.filefighter.de/">https://blog.filefighter.de</a>
+Do you want to read our blog? Feel free to do so, and checkout our blog at : <a href="https://blog.filefighter.de/">https://blog.filefighter.de</a>
 
 ## Peer Reviews
 Are you a peer-reviewer? You can comment your reviews in the "<a href="https://github.com/FileFighter/filefighter.github.io/issues">Issues</a>" tab. 
