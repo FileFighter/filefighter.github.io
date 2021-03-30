@@ -25,3 +25,6 @@ For further information about this project, the development process, or the feat
 Do you want to give us feedback about our project, blog or code?  
 You can either leave a comment on the blog pages, open an new issue, or write us an email.  
 You can also see the feedback we gave other blogs [here](/reviews/){:target="_blank"}.
+
+
+{% include_relative Contribution.md %}

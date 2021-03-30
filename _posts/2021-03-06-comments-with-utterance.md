@@ -3,7 +3,6 @@ layout: post
 title: "Making our blog even better"
 author: open-schnick, Gimleux
 categories: tech
-issuelink: https://github.com/FileFighter/filefighter.github.io/discussions/60
 ---
 Welcome back to our blog.
 Although we are currently on vacation, we are still thinking about ways to improve the visitor experience of our blog.
