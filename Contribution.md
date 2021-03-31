@@ -1,3 +1,7 @@
+---
+notInNav: true
+---
+
 ## How to contribute
 
 You are welcome to contribute to the project in different ways, even if your not proficient in coding.
