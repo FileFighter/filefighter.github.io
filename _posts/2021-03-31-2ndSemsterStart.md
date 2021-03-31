@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Back for the dead. The second semester begins."
+title: "The second semester begins"
 author: valentin, Gimleux
 categories: pm
 ---
