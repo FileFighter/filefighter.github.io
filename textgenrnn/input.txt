@@ -1,0 +1,148 @@
+Hey there!
+With this blog post we want to introduce ourself and our project FileFighter.
+We will briefly talk about the vision of the project and then continue about the first steps we took to organize the development of it.
+We are three students of the DHBW Karlsruhe (stu)dying CS. For our Software Engineering class we got the opportunity to show what we are learning with doing what we love: Coding ... and of course everything that comes with managing a larger software project. To read more about the team go to [about](/about).
+Our vision is to create a home Nas software solution that everyone can use the way they want. To get some more details about it visit the [vision page](/vision).
+To get us started we needed some basic tools, besides [GitHub](https://github.com/FileFighter){:target="_blank"}, where all the code will be. We need a tool for organizing our work and to share our progress with the world.
+### Planing Software
+We decided to use youtrack, because we are jetbrains fanboys.
+So we got a project on the youtrack instance of the DH.
+The only alternative was Jira, because we all used it at work already.
+Getting used to youtrack takes some time as it provides to lot of features and has a complex UI.
+But by now we figured out the basic and started to create tasks and track our spent time.
+### Why we choose GitHub Pages and Jekyll:
+We know everyone can create a blog with Wordpress. But we are CS students so we wanted to do something different.
+Using GitHub Pages for hosting and Jekyll for building our static HTML site we have the ability to write our blog the same way we write our code.
+Plus we are not dependent on a service like Wordpress, we could easily move our blog to an other hosting service.
+While setting up the blog we encountered some problems, but managed to solve most of them.
+With Jekyll we could easily create a site from a template and can simply write [markdown](https://www.markdownguide.org/){:target="_blank"} to create the blog post and all the other sides. It is also super customizable and easy to theme, so we will apply the corporate design of our FileFighter frontend to it.
+Using GitHub gives us the ability to have almost everything on one platform. Peer Reviews can be done in the same place where the code is stored.
+One highlight of the blog could be the support for language highlighting as seen in this short test for java code snippets.
+Thats it for today, thank you for reading!
+To get to know our workflow for PeerReviews go to the [reviews page](/reviews), or just follow the next link and comment on the GitHub issue.
+In this blog post we want to give you some insight about the architecture we will be using for our application. Understanding this will be important for you to follow the ongoing development, as you will know the features of the different applications/services and how they play together.
+First we will cover the whole architecture and then talk briefly about authentication and follow up with how the end user will deploy our software.
+Afterwards, we will also present the distribution of roles in our team.
+## Architecture of our Application
+Our architecture is based on microservices. Microservices are defined as independent small applications, that serve a special purpose. This gives us the ability to develop each service independently and even with different technologies.
+To be able to setup and deploy the whole application we will be using [Docker](https://www.docker.com/). That way we can manage CI/CD, pipelines, and different versions of the services independently. The main reason for using Docker is how easy it is to use as a Client. The dependencies needed to host the whole application are reduced to only docker. Furthermore, all the typical advantages of Docker apply here.
+We will develop three microservices.
+Our frontend where all the interaction with the normal user will take place, will be developed with the JavaScript library [React](https://reactjs.org/). It will be hosted in a container and provide a web user interface.
+The second service is a RESTful Web service that will handle the users and abstract a filesystem. The information about the individual users and all their files will be stored in a [MongoDB](https://www.mongodb.com/) database. The web interface will provide the frontend with all the needed information about folders and their content for authenticated users, but not the actual files.
+The actual files will be handled by the "DataHandler Service". This service will provide a interface to store and receive files. The files will be stored on disks. When the users tries to download or upload a file the "DataHandler Service" will also communicate with the RESTful Web service to guarantee authentication.
+The whole architecture is also outlined in figure 1 for an easier overview.
+For the authentication we will be using two kind of tokens. One with an longer active time an one with an shorter one. When the user logs in with his username and password he will get a Refresh token, which has s longer active time an can be saved in the browser (with cookies for example). With this Refresh token he then will be able to request Access Token, those only last a short amount of time, but are necessary for all the Api requests involving the sensitive data. The backend will connect each Access Token with the correspondent user and make sure the user only has rights to access what he is supposed to be able to access. This process is also outlined in figure 2.
+In order for our client to easily install our application we will provide docker images for all our services.
+Those images will automatically be build for every release using GitHub Actions and published on a container registry.
+The client will then just need to build and start the containers. All this will be done automatically by a script we will provide in our [ClientSetup](https://github.com/FileFighter/ClientSetup) repository. The script will initialize all necessary services, start the FileFighter nas and also periodical check for new versions of the services.
+The deployment process is also displayed in figure 3.
+## Project Roles
+One task for this week was to define the rules each member of our team will have during the project.
+So we looked at how IBM defines the [RUP Roles](https://www.ibm.com/developerworks/rational/library/apr05/crain/) and selected the roles we think we will need and also added some.
+Then we just distributed the roles according to prior knowledge and interests. Those roles should also rather define who is responsible for certain things and not who should do everything related to this role.
+Thats it for today. Thanks for reading!
+Hey there!
+This week we got the task to start with the documentation of our project and outline the Software Requirements Specification.
+We were told to write the documentation in markdown. Because we are already using markdown for our blog we could easily integrate the wiki into it.
+You can find the fist page of the wiki [here](/wiki). We had a nice template for the specification and started to fill out the information.
+So checkout the wiki and maybe leave some feedback.
+Thank you for reading!
+The FileFighter Team.
+Hi there, this blog post will be about the documentation of use cases.
+For this week we got the task to create Use-Case Specifications for two of our use cases. We choose the [permissions use case](/wiki/usecases/crudPermissions.html) for sharing files and directories and the [view folder contents](/wiki/usecases/viewFolderContents.html) use case. We created the activity diagrams for both use cases using [Draw.io](https://app.diagrams.net/){:target="_blank"} and started making frontend mockups with [Pencil Project](http://pencil.evolus.vn/){:target="_blank"}.
+Next week we will also need to create narration using [Cucumber](https://cucumber.io/){:target="_blank"}. We will do this in our Java project where Cucumber is already set up.
+Thank you for reading,
+FileFighter Team.
+#### Cucumber
+This week we stated using behavior-driven development by implementing feature file that describe how our application should behave and then can be used to test if the application behaves they way we want.
+For now, we just want to do this for our Springboot backend and test the  rest api.
+To get started it was first important to be clear about what exactly you want to test. In our case this was the rest api and for example not the frontend.
+With the nice tutorial from [Cucumber](https://cucumber.io/docs/guides/10-minute-tutorial/){:target="_blank"} the syntax for .feature files got pretty clear. We used "Scenario Outline" and "Background" at some places, to reduce redundancy. Once the scenario for successful interaction (or the 80% case) was done it was pretty easy to add more scenarios that simulate what could go wrong. It is important though to pick a good datatype for
+the parameters of the step functions and to reuse the steps where ever it is possible. This avoids having to write several step functions that do almost the same.
+So see the step functions go to the UC documentations:
+ [permissions use case](/wiki/usecases/crudPermissions.html){:target="_blank"} and [view folder contents](/wiki/usecases/viewFolderContents.html){:target="_blank"}
+With IntelliJ IDEA Ultimate (free with [GitHub Student Developer Pack](https://education.github.com/pack){:target="_blank"}) you also get good language support for feature files, as seen in this image.
+We are already able to execute the test locally and with GitHub Actions (see the workflows [here](https://github.com/FileFighter/RestApi/actions){:target="_blank"}).
+Here you can see a screen cast of the running tests.
+#### Blogging tip of the Day [0]!
+Do you want to embed a piece of code directly into your blog? Well with [gist-it](https://gist-it.appspot.com/){:target="_blank"} you easily can. It is as simple as pasting a link into your html. The content will be taken directly from your GitHub repo and will update as you change it! It also looks really cool with proper syntax highlighting.
+This blogpost will be about project management and how you can set up a nice workflow.
+Using a project management tool like youtrack in your browser can work quite well. You just need to switch applications everytime you want to do something in it. This could become annoying over time. If you are coding a lot you are in you IDE most of the time. Integration your project management tool sounds like a perfect solution.
+With Intellij IDEA you can install the Youtrack plugin and do almost everything directly from there.
+Sadly at the moment I was taking this screenshot the youtrack server of the DH was not working correctly, so I could not select a project.
+As an alternative to this plugin I also searched for a CLI (command-line interface) for youtrack. [The one I found](https://github.com/shanehofstetter/youtrack-cli){:target="_blank"} works for the basic needs. If you are a terminal crack this will be the way to go.
+An other nice feature of Intellij is the graphical git interface. We are not using [GITx](http://gitx.frim.nl/){:target="_blank"} as this seems to only work on macOS. But for me personally nothing beats the git cli.
+To always keep track of how much time you are spending for the different task you can enable time tracking in the IDE as described [here](https://www.jetbrains.com/help/youtrack/standalone/Time-Tracking-IDE-Integration.html){:target="_blank"}.
+Our project overview can be found [here](https://dhbw-karlsruhe.myjetbrains.com/youtrack/dashboard?id=005597cb-b220-44de-826c-c318c2d86655){:target="_blank"} and our agile board [here](https://dhbw-karlsruhe.myjetbrains.com/youtrack/agiles/108-41){:target="_blank"}.
+Maybe you need to login first.
+#### Blogging tip of the Day [1]!
+Have you ever had a broken link on your website? This really sucks and can happen for various reasons.
+With the Python tool [Hydra](https://github.com/victoriadrake/hydra-link-checker){:target="_blank"} you can check for dead link for any given url manually.
+To automate this you can use GitHub Actions with the Action [Link Snitch](https://github.com/victoriadrake/link-snitch){:target="_blank"}. Because we are hosting our blog with GitHub pages our page gets checked for broken links everytime we public something on it. What a perfect combination.
+Hello there,
+This week we wrote our Software Architecture Document (SAD). You can discover our document [here](/wiki/arch){:target="_blank"}.
+Here is a screenshot of our IDE, to proof that we created the diagrams with the IDE.
+With IntelliJ IDEA Ultimate you can also easily generate a database schema by connection to the DB directly for the IDE, as described [here](https://www.jetbrains.com/help/idea/connecting-to-a-database.html){:target="_blank"}.
+Let us know if you think we can make it better.
+#### Blogging tip of the Day [2]!
+Are you having a lot of images on your Blog or Documentation website? Large and not optimized images can drastically increase loading times for your visitors.
+To prevent this, you should use a tool for compressing them while maintaining the quality. There are for sure quite a lot of tools that you can use for this, but the one that quickly captured our attention is [Imgbot](https://github.com/marketplace/imgbot). Imgbot will automatically check your GitHub repository for unoptimized images and optimizes them. Because we are using GitHub Pages and Jekyll all the images of both our blog and documentation are always getting optimized, and we don't have to worry about it at all.
+Hi there,
+this week we just want to give you a quick update about the development status, as we finished the [SAD](https://filefighter.github.io/wiki/arch){:target="_blank"} already last week.
+For our backend we finished 3 use cases, all involving users (login, register and edit profile) and put a lot of effort in writing test, resulting in a coverage of about 60% currently. We also setup sonarqube already, which you can find [here](https://sonar.filefighter.de/dashboard?id=de.filefighter%3Arest){:target="_blank"}.
+For the frontend we implemented the login, and the management of data across different views. We also created the fist views (one is displayed below), but design will come later.
+![register view](/assets/images/blog-8/register.png)
+Our deployment solution is almost finished. We wrote a nice unix shell script for installing the application with docker.
+The images are automatically updated via GitHub Actions everytime we push changes on the master branch.
+To be able to use different containers for each service we also added a reverse proxy to prevent problems with [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS){:target="_blank"}.
+You can find all code for this [here](https://github.com/FileFighter/ClientSetup){:target="_blank"}.
+Thanks for reading and have a nice day!
+Hi there,
+this week we noticed that midterm is coming pretty soon. So we want to take this time to take a look at what we achieved by now.
+We have chosen the framework [Spring](https://spring.io){:target="_blank"} as well as the library [Spring Boot](https://spring.io/projects/spring-boot){:target="_blank"} for our backend.
+For the frontend we are using the JavaScript library [ReactJS](https://reactjs.org/){:target="_blank"} with some more libraries to extend it.
+Here is a short screencast of our frontend:
+Also check out our [SAD](/wiki/arch){:target="_blank"} document which we extended again. We added the deployment view and described the mvc pattern with more detail. The documentation of the UCs also got an update.
+#### Blogging tip of the Day [3]!
+Writing all those blog posts can be quite challenging sometimes, especially if you are not a native english speaker.
+To prevent simple mistakes like spelling you just need to use the right tools that can help you.
+ One favorite for me to do this is IntelliJ IDEA Ultimate which checks not only your code but also your spelling.
+ Because we are using markdown for documenting and blogging we are writing it in the IDE any way.
+ To check for mistakes on your whole site you can also use tools like [typosaurus](https://typosaur.us/) that will help you discover mistakes you have missed.
+This blogpost will be about retro stuff, which we really like, especially retro video games as you can probably tell from the design of our blog already.
+Wait? I must have misunderstood that; the topic will be our Retrospective, an event from the scrum method, where you look back at the done work and try to find out what went well, what should be improved and how you can improve those things.
+The retro was held by a professional scrum master, who provided a nice setting for the event.
+Now we know which vehicle represents the current state of our project the best (and no, it is definitely not one of those [speeder bikes from star wars :)](https://duckduckgo.com/?q=start+wars+speeder+bike&t=brave&iar=images&iax=images&ia=images){:target="_blank"}.
+So now we just want to share some results of the retrospective:
+Things we thought worked well:
+* Communication
+* Time effort
+* Making the environments fit to us (like our blog, automated workflows, JetBrains(!), etc.)
+* Team-building activities
+* Test Driven Development
+Some points about how we could improve:
+* Avoiding tasks that are not relevant to the current scope
+* Calculating with buffer when estimating
+* Better long term planning (features, technical stuff)
+* Stay more on topic at meetings
+That's it for this blogpost, thanks for reading and have a nice day!
+Now that we are halfway through the project, we would like to briefly summarize the results we have achieved so far.
+Here are some interesting stats:
+We pushed more than 500 commits on our master branches, run more than 560 automated GitHub workflows, wrote over 4k lines of code plus 170 tests and spent way too much time on everything.
+Good luck during your ~~semester break~~ practical phases.
+Welcome back to our blog.
+Although we are currently on vacation, we are still thinking about ways to improve the visitor experience of our blog.
+On this mission we found a way to make our blog even better - one would not even have thought that this would still be possible. Just kidding, BUT indeed we dug up a more efficient way to include your feedback and comments on our blog.
+The tool we utilize for this is called [utteranc](https://utteranc.es/){:target="_blank"}. It enables you to submit a comment directly on the blog page, therefore there is no need to switch to github and back again. You only need to authorize the bot, which creates an issue on our blog repository including your comment.
+We wish you a pleasant weekend.
+The FileFighter devs.
+Hi there,
+this small blogpost will give you an update on what has happened between the two semesters and outline our plans for the ongoing second semester.
+We slightly corrected our scope as outlined in the usecase diagram below:
+Our main goal for this semester is to finish the upload and download usecases and also allow searching for files.
+Next to this the usecases for userprofile and permissions should be implemented.
+If we have the time for it, we will also try to improve the security of our application.
+By now we have decided what technology to use for the third microservice of our application:
+Because we wanted to try something we haven't used before and are also interested in functional programming we choose Haskell.
+You can find the repo for this service [here](https://github.com/FileFighter/FileHandler){:target="_blank"}.
+That's it with the quick update, have a nice day!
