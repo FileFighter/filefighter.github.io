@@ -38,7 +38,7 @@ If you find an issue or have an idea, please check if a ticket already exists on
 ### Code Contributing
 
 * Create a branch named "feature/NameOfYourChanges". When you push this, all automated checks will be run. If some of them are failing, try to resolve the issues.
-* Submit your changes as a pull request and select the FileFighter - Dev Team as reviewers.
+* Submit your changes as a pull request (to the review branch) and select the FileFighter - Dev Team as reviewers.
 * We will take a look at your changes and approve them.
 
 
