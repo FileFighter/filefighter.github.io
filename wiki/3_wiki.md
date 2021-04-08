@@ -54,6 +54,7 @@ permalink: /wiki/
   - [3.11 Legal, Copyright, and Other Notices](#311-legal-copyright-and-other-notices)
   - [3.12 Applicable Standards](#312-applicable-standards)
 - [4. Supporting Information](#4-supporting-information)
+- [5. Risk Management](#5-risk-management)
 
 
 ## 1. Introduction
@@ -357,3 +358,10 @@ The development will follow the common clean code standards and naming conventio
 For any further information you can contact the FileFighter Team.
 
 For feedback about this page go the [GitHub Issue](https://github.com/FileFighter/filefighter.github.io/issues/11).
+
+
+## 5. Risk Management
+
+You can find our list of risks below (needs third-party cookies) or at [this page](https://pads.c3w.at/sheet/#/2/sheet/view/WQl5RoIRthhIVsrqElHTvHQ0tZpOSxqCpSboLWiXDYc/embed/).
+
+<iframe  src="https://pads.c3w.at/sheet/#/2/sheet/view/WQl5RoIRthhIVsrqElHTvHQ0tZpOSxqCpSboLWiXDYc/embed/" style="width:100%;height:700px;border:none"></iframe>
