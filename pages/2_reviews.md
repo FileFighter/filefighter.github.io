@@ -12,6 +12,8 @@ There you can also find all the previous threads.
 
 Here you can find a list of all the reviews we have given for other projects:
 
+##### First Semester
+
 ###### Week 1
 * [littleBeasts](https://littlebeastsgame.wordpress.com/2020/10/01/projekterstellung-und-definition/){:target="_blank"}
 * [lazyPlants](https://lazysmartplants.wordpress.com/2020/10/01/week-1-hello-world/){:target="_blank"}
@@ -48,3 +50,9 @@ Here you can find a list of all the reviews we have given for other projects:
 ###### Week 9
 * [Träwelling](https://traewelling.wordpress.com/2020/11/25/week-7/){:target="_blank"}
 * [SweatForSuccess](https://sweatforsuccess689030981.wordpress.com/2020/11/29/w9-more-use-cases/){:target="_blank"}
+
+##### Second Semester
+
+###### Week 2
+* [Plandora](https://plandora51897980.wordpress.com/2021/04/08/week-12-risk-management/){:target="_blank"}
+* [lazyPlants](https://lazysmartplants.wordpress.com/2021/04/12/week-10-risk-management/){:target="_blank"}
