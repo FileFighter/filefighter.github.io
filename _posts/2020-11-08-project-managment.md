@@ -31,7 +31,7 @@ An other nice feature of Intellij is the graphical git interface. We are not usi
 <img src="/assets/images/blog-6/git-in-ide.png">
 
 
-To always keep track of how much time you are spending for the different task you can enable time tracking in the IDE as described [here](https://www.jetbrains.com/help/youtrack/standalone/Time-Tracking-IDE-Integration.html){:target="_blank"}.
+To always keep track of how much time you are spending for the different task you can enable time tracking in the IDE as described [here](https://www.jetbrains.com/help/youtrack/incloud/YouTrack-Integration-Plugin.html){:target="_blank"}.
 
 
 <img src="/assets/images/blog-6/enable-tt.png">
