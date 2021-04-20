@@ -58,7 +58,7 @@ The deployment process is also displayed in figure 3.
 
 One task for this week was to define the rules each member of our team will have during the project.
 
-So we looked at how IBM defines the [RUP Roles](https://www.ibm.com/developerworks/rational/library/apr05/crain/) and selected the roles we think we will need and also added some.
+So we looked at how IBM defines the [RUP Roles](https://web.archive.org/web/20160321103943/http://www.ibm.com/developerworks/rational/library/apr05/crain/) and selected the roles we think we will need and also added some.
 
 Then we just distributed the roles according to prior knowledge and interests. Those roles should also rather define who is responsible for certain things and not who should do everything related to this role.
 
