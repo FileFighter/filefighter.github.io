@@ -31,19 +31,21 @@ With the equation we can easily calculate the time we need to estimate for the u
 <figcaption>Time spend for Use Cases compared with their estimated function points</figcaption>
 </figure>
 
-With this function we calculated the estimated time for the upcoming Use Cases and subtracted the time we already spent for each Use Case:
+With this function we calculated the estimated time for the upcoming Use Cases:
 
-* Edit Files  (116 h)
-* Upload  (136 h)
-* Download (179 h)
-* CRUD permission (262 h) 
+* Edit Files  (90 h)
+* Upload  (104 h)
+* Download (45 h)
+* CRUD permission (104 h) 
+
+This makes up a total time of 266 hours we have left according to the estimation.
+
+Since we only have about 200 hours for development (taken from the time we spent in the first semester) it might be not realistic that we will be able to finish all Use Cases.
+The permissions use case would be the last use case we implement, so we will have to see if we can finish it.
 
 
-Since we only have about 200 hours for development (taken from the time we spent in the first semester) it is not realistic that we will be able to finish all Use Cases.
 
-
-
-You can find the calculation in the sheet below or at [this page](https://pads.c3w.at/sheet/#/2/sheet/view/OGi1SLOKNq5sRnSgFC2CYU1Dd+lIA2-Icntko7nNSz4/embed/).
+You can find the calculation in the sheet below or at [this page](https://pads.c3w.at/sheet/#/2/sheet/view/OGi1SLOKNq5sRnSgFC2CYU1Dd+lIA2-Icntko7nNSz4/embed/){:target="_blank"}.
 
 <iframe src="https://pads.c3w.at/sheet/#/2/sheet/view/OGi1SLOKNq5sRnSgFC2CYU1Dd+lIA2-Icntko7nNSz4/embed/" style="width:100%;height:700px;border:none"></iframe>
 
