@@ -59,4 +59,4 @@ Here you can find a list of all the reviews we have given for other projects:
 
 ###### Week 4
 * [Plandora](https://plandora51897980.wordpress.com/2021/04/19/week-13-function-points/){:target="_blank"}
-* [lazyPlants](https://imgurbd.wordpress.com/2021/04/14/semester-2-week-3/){:target="_blank"}
+* [ImgurBD](https://imgurbd.wordpress.com/2021/04/14/semester-2-week-3/){:target="_blank"}
