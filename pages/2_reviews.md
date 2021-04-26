@@ -56,3 +56,7 @@ Here you can find a list of all the reviews we have given for other projects:
 ###### Week 2
 * [Plandora](https://plandora51897980.wordpress.com/2021/04/08/week-12-risk-management/){:target="_blank"}
 * [lazyPlants](https://lazysmartplants.wordpress.com/2021/04/12/week-10-risk-management/){:target="_blank"}
+
+###### Week 4
+* [Plandora](https://plandora51897980.wordpress.com/2021/04/19/week-13-function-points/){:target="_blank"}
+* [lazyPlants](https://imgurbd.wordpress.com/2021/04/14/semester-2-week-3/){:target="_blank"}
