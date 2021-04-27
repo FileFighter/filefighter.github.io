@@ -1,4 +1,12 @@
-# Test Plan - FileFighter
+---
+layout: page
+title: Test Plan
+permalink: /wiki/testing
+notInNav: true
+---
+
+{% include wiki-nav.html %}
+
 
 ## Table of Contents
 

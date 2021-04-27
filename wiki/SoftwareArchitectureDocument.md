@@ -7,7 +7,7 @@ notInNav: true
 
 {% include wiki-nav.html %}
 
-# Table of Contents
+## Table of Contents
 - [Introduction](#1-introduction)
     - [Purpose](#11-purpose)
     - [Scope](#12-scope)
