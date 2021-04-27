@@ -12,6 +12,7 @@
 | VCS         | Version control system                 |
 | nas         | Network Attached Storage               |
 | CI/CD       |  continuous integration continuous delivery/continuous deployment               |
+| TDD         |  Test Driven Development               |
 
 
 
