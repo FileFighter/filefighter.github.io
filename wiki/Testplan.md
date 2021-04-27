@@ -336,6 +336,11 @@ Our second tool for creating metrics is [codefactor](https://codefactor.io/).
 
 We are collecting the logs of a running version of the system. We are not tracking any usage of clients or anything like that because we are not human garbage and respect privacy.
 
+Reports by the different tools and test implementations are directly displayed in GitHub, when a merge request is created.
+We also require reviews by the developers before changes can be merged als shown in the image below
+
+![Merging Pull Requests](/assets/images/testplan/reviews.png)
+
 ### 7.5 Smoke Test Suite and Supporting Test Scripts
 
 n/a
