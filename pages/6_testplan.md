@@ -253,31 +253,11 @@ Occurring errors during the build terminate the test cycle. Then an email is sen
 
 ### 7.1 Test Evaluation Summaries
 
-| Continuous Integration Service                                      | Badges |
-|---------------------------------------------------------------------|:-----:|
-| [GitHub Pipeline (Frontend)](https://github.com/FileFighter/WebApp) | ![Latest Release](https://github.com/FileFighter/WebApp/workflows/Latest%20Release/badge.svg)
-
-![Stable Release](https://github.com/FileFighter/WebApp/workflows/Stable%20Release/badge.svg)
-![Docker Release](https://img.shields.io/github/v/release/filefighter/webapp?color=dark-green&label=Stable%20Version&logo=docker&style=for-the-badge)
-![Docker Pulls](https://img.shields.io/docker/pulls/filefighter/frontend?logo=docker&style=for-the-badge)  
-[![Code Smells](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter.frontend&metric=code_smells)](https://sonar.filefighter.de/dashboard?id=de.filefighter.frontend)
-[![Lines of Code](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter.frontend&metric=ncloc)](https://sonar.filefighter.de/dashboard?id=de.filefighter.frontend)
-[![Security Rating](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter.frontend&metric=security_rating)](https://sonar.filefighter.de/dashboard?id=de.filefighter.frontend)  
-[![Bugs](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter.frontend&metric=bugs)](https://sonar.filefighter.de/dashboard?id=de.filefighter.frontend)
-[![Duplicated Lines Density](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter.frontend&metric=duplicated_lines_density)](https://sonar.filefighter.de/dashboard?id=de.filefighter.frontend)
-![CodeFactor](https://www.codefactor.io/repository/github/filefighter/webapp/badge)  
-![End-to-end tests](https://github.com/FileFighter/WebApp/workflows/End-to-end%20tests/badge.svg) | | [GitHub Pipeline (Rest Backend)](https://github.com/FileFighter/RestApi)
-| [![Docker Release](https://img.shields.io/github/v/release/filefighter/restapi?color=dark-green&label=Stable%20Version&logo=docker&style=for-the-badge)](https://github.com/FileFighter/RestApi/releases)
-
-[![Docker Pulls](https://img.shields.io/docker/pulls/filefighter/rest?logo=docker&style=for-the-badge)](https://hub.docker.com/r/filefighter/rest)  
-[![Quality Gate Status](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter%3Arest&metric=alert_status)](https://sonar.filefighter.de/dashboard?id=de.filefighter%3Arest)
-[![Coverage](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter%3Arest&metric=coverage)](https://sonar.filefighter.de/dashboard?id=de.filefighter%3Arest)
-[![Lines of Code](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter%3Arest&metric=ncloc)](https://sonar.filefighter.de/dashboard?id=de.filefighter%3Arest)
-[![Security Rating](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter%3Arest&metric=security_rating)](https://sonar.filefighter.de/dashboard?id=de.filefighter%3Arest)  
-![Latest Release](https://github.com/FileFighter/RestApi/workflows/Latest%20Release/badge.svg)
-![Stable Release](https://github.com/FileFighter/RestApi/workflows/Stable%20Release/badge.svg)
-![Tests (Master)](https://github.com/FileFighter/RestApi/workflows/Tests%20(Master)/badge.svg) | | [GitHub Pipeline (FileHandler Backend)](https://github.com/FileFighter/FileHandler)
-| Badge tbd |
+| Continuous Integration Service                              | Badges |
+|-------------------------------------------------------------|:-----:|
+| [GitHub Pipeline (Frontend)](https://github.com/FileFighter/WebApp) | ![Latest Release](https://github.com/FileFighter/WebApp/workflows/Latest%20Release/badge.svg) ![Stable Release](https://github.com/FileFighter/WebApp/workflows/Stable%20Release/badge.svg) ![Docker Release](https://img.shields.io/github/v/release/filefighter/webapp?color=dark-green&label=Stable%20Version&logo=docker&style=for-the-badge) ![Docker Pulls](https://img.shields.io/docker/pulls/filefighter/frontend?logo=docker&style=for-the-badge) [![Code Smells](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter.frontend&metric=code_smells)](https://sonar.filefighter.de/dashboard?id=de.filefighter.frontend) [![Lines of Code](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter.frontend&metric=ncloc)](https://sonar.filefighter.de/dashboard?id=de.filefighter.frontend) [![Security Rating](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter.frontend&metric=security_rating)](https://sonar.filefighter.de/dashboard?id=de.filefighter.frontend) [![Bugs](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter.frontend&metric=bugs)](https://sonar.filefighter.de/dashboard?id=de.filefighter.frontend) [![Duplicated Lines Density](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter.frontend&metric=duplicated_lines_density)](https://sonar.filefighter.de/dashboard?id=de.filefighter.frontend) ![CodeFactor](https://www.codefactor.io/repository/github/filefighter/webapp/badge) ![End-to-end tests](https://github.com/FileFighter/WebApp/workflows/End-to-end%20tests/badge.svg) |
+| [GitHub Pipeline (Rest Backend)](https://github.com/FileFighter/RestApi) | [![Docker Release](https://img.shields.io/github/v/release/filefighter/restapi?color=dark-green&label=Stable%20Version&logo=docker&style=for-the-badge)](https://github.com/FileFighter/RestApi/releases) [![Docker Pulls](https://img.shields.io/docker/pulls/filefighter/rest?logo=docker&style=for-the-badge)](https://hub.docker.com/r/filefighter/rest) [![Quality Gate Status](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter%3Arest&metric=alert_status)](https://sonar.filefighter.de/dashboard?id=de.filefighter%3Arest) [![Coverage](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter%3Arest&metric=coverage)](https://sonar.filefighter.de/dashboard?id=de.filefighter%3Arest) [![Lines of Code](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter%3Arest&metric=ncloc)](https://sonar.filefighter.de/dashboard?id=de.filefighter%3Arest) [![Security Rating](https://sonar.filefighter.de/api/project_badges/measure?project=de.filefighter%3Arest&metric=security_rating)](https://sonar.filefighter.de/dashboard?id=de.filefighter%3Arest) ![Latest Release](https://github.com/FileFighter/RestApi/workflows/Latest%20Release/badge.svg) ![Stable Release](https://github.com/FileFighter/RestApi/workflows/Stable%20Release/badge.svg) ![Tests (Master)](https://github.com/FileFighter/RestApi/workflows/Tests%20(Master)/badge.svg) |
+| [GitHub Pipeline (FileHandler Backend)](https://github.com/FileFighter/FileHandler) | n/a |
 
 ### 7.2 Reporting on Test Coverage
 
