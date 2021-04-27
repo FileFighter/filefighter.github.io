@@ -216,7 +216,7 @@ n/a
 
 #### 5.2.4 User Interface Testing
 
-##### automated End-to-End-test run in the browser
+#### automated End-to-End-test run in the browser
 
 || |
 |---|---|
@@ -225,9 +225,14 @@ n/a
 |Oracles |  automated took enters valid data, for example a valid username and a valid password   |
 |Required Tools | [Cypress](https://cypress.io)     |
 |Success Criteria |    All tests pass         |
-|Special Considerations    |     -          |
+|Special Considerations    | Test are recorded as shown below |
 
-##### automated snapshot test
+<video style="width:100%"  controls>
+  <source src="https://assets.filefighter.de/cypress-register.mp4" type="video/mp4"> 
+Your browser does not support the video tag.
+</video>
+
+#### automated snapshot test
 
 || |
 |---|---|
