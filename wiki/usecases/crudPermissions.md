@@ -49,5 +49,6 @@ The user is owner of the files he wants to change the permissions of.
 The new permissins for the files or folders are stored in the database.
 
 # 6. Function Points
-tbd
+
+190 (104 hours)
 

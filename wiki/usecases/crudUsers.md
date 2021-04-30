@@ -36,6 +36,16 @@ tdb
 
 <script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/UserRegistration.feature"></script>
 
+### integration tests 
+<script src="https://gist-it.appspot.com/https://github.com/FileFighter/WebApp/blob/master/cypress/integration/register_spec.js"></script>
+
+### snapshot tests
+
+<script src="https://gist-it.appspot.com/https://github.com/FileFighter/WebApp/blob/master/src/components/pages/User/Registration.stories.tsx"></script>
+
+### unit tests
+
+<script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/java/de/filefighter/rest/domain/user/business/UserBusinessServiceUnitTest.java"></script>
 
 ## 2.2 Alternative Flows
 tbd
@@ -52,5 +62,6 @@ The current user need to be an administrator.
 The new created user must be stored in the database.
 
 # 6. Function Points
-tbd
+
+234 (138 hours)
 
