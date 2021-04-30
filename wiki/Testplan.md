@@ -328,7 +328,7 @@ found [on our own SonarQube instance.](https://sonar.filefighter.de/projects?sor
 All our projects are getting regularly pull requests created by a tool called renovate. The pull request updates dependencies of our projects. One example of this can be
 seen [here](https://github.com/FileFighter/RestApi/pull/101).
 
-Every repository is checked regularly by a tool called [synk.io](https://snyk.io/). [Synk](https://snyk.io/) is an open-source tool to notify developers about known vulnerabilities in their projects.
+Every repository is checked regularly by a tool called [snyk.io](https://snyk.io/). [Synk](https://snyk.io/) is an open-source tool to notify developers about known vulnerabilities in their projects.
 
 Our second tool for creating metrics is [codefactor](https://codefactor.io/).
 
