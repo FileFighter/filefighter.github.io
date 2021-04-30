@@ -130,6 +130,7 @@ The technologies we use are:
 
 - Frontend:
     - React JS webapp
+	- Storybook
 
 - IDE:
     - IntelliJ and VS Code
@@ -137,19 +138,28 @@ The technologies we use are:
 - Project Management:
     - YouTrack
     - GitHub
-    - Discord
+	- Gitea
+	- Matrix
+    - Jitsi
     - CryptPad
 
 - Deployment:
     - Github Actions 
     - Docker
     - Shell scripts
+	
+- Quality:
+	- SonarQube
+	- Renovate
+	- Snyk.io
+	- Codefactor
     
 - Testing:
     - Mockito
     - JUnit
-    - [CodeCov.io](https://codecov.io/)
     - Jacoco
+	- Jest
+	- Storybook
 
 ## 3. Specific Requirements
 
