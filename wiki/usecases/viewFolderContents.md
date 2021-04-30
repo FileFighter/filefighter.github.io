@@ -52,5 +52,6 @@ The user exists.
 The user can now perform multiple file actions.
 
 # 6. Function Points
-tbd
+
+165 (89 hours)
 
