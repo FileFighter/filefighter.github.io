@@ -53,10 +53,14 @@ Here you can find a list of all the reviews we have given for other projects:
 
 ##### Second Semester
 
-###### Week 2
+###### Week 12
 * [Plandora](https://plandora51897980.wordpress.com/2021/04/08/week-12-risk-management/){:target="_blank"}
 * [lazyPlants](https://lazysmartplants.wordpress.com/2021/04/12/week-10-risk-management/){:target="_blank"}
 
-###### Week 4
+###### Week 13
 * [Plandora](https://plandora51897980.wordpress.com/2021/04/19/week-13-function-points/){:target="_blank"}
 * [ImgurBD](https://imgurbd.wordpress.com/2021/04/14/semester-2-week-3/){:target="_blank"}
+
+###### Week 15
+* [DHBWar](https://dhbwar.wordpress.com/2021/04/30/semester-2-week-4/){:target="_blank"}
+* [MyCookieBook](https://mycookiebook.wordpress.com/2021/05/02/week-15-testing/){:target="_blank"}
