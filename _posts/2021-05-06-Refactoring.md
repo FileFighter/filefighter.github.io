@@ -18,7 +18,7 @@ You can observe the results of our three team members in the repos below:
 
 Many refactoring steps that are described in the book can actually be done by your IDE instead of performing them manually. Following, we will demonstrate you some of them in IntelliJ IDEA:
 
-The rename action can even suggest you some sane names for variables to you, pretty cool.
+The rename action can even suggest some sane names for variables to you, pretty cool.
 <figure>
 <img src="/assets/images/blog-16/rename.png"/>
 </figure>
@@ -30,7 +30,7 @@ The action inline variable allows you to remove a temporary variable and instead
 <figure>
 <img src="/assets/images/blog-16/inlineVar.png"/>
 </figure>
-Safe delete represents an effective IDE action because it can search in the entire project of usages and even in comments and strings, making sure you don't delete anything that you eventually still needed.
+Safe delete represents an effective IDE action because it can search in the entire project for usages and even in comments and strings, making sure you don't delete anything that you eventually still needed.
 <figure>
 <img src="/assets/images/blog-16/delete.png"/>
 </figure>
