@@ -14,6 +14,7 @@ You can find the results of our three team members in the repos below:
 
 * [Gimleux](https://github.com/ExperimentsByFileFighter/Gimleux-Refactoring_Task/){:target="_blank"}
 * [qValentin](https://github.com/ExperimentsByFileFighter/qFowler){:target="_blank"}
+* [open-schnick](https://github.com/ExperimentsByFileFighter/Open-Fowler){:target="_blank"}
 
 Many refactoring steps that are described in the book can actually be done by your IDE instead of doing them manually. Now we will show you some of them in Intellij IDEA:
 
