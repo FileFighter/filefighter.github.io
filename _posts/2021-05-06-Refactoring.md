@@ -7,7 +7,7 @@ categories: tech
 
 Hi there,
 
-this week we got an interesting task to train our refactoring skills. This task was taken from the first chapter of [Martin Fowlers](https://martinfowler.com/){:target="_blank"} book '[Refactoring](https://bookshop.org/books/refactoring-improving-the-design-of-existing-code/9780134757599){:target="_blank"}'. Starting
+this week we got an interesting task to train our refactoring skills. This task was taken from the first chapter of [Martin Fowlers](https://martinfowler.com/){:target="_blank"} book '[Refactoring](https://bookshop.org/books/refactoring-improving-the-design-of-existing-code/9780134757599){:target="_blank"}.' Starting
 from [this code](https://github.com/gnilkreb/Fowler/tree/c0e1c7a21a5335d7e475c2c795ed77deec37b776){:target="_blank"} the task is to enhance the code by following the individual steps described by Fowler.
 
 You can observe the results of our three team members in the repos below:
