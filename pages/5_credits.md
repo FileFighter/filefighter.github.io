@@ -15,3 +15,8 @@ Edited by Gimleux
 Mountain Dusk Parallax background  
 ansimuz - [itch.io](https://ansimuz.itch.io){:target="_blank"}  
 Edited by Gimleux
+
+### Custom Cursors
+Big Fantasy Pack
+Corwin ZX - [itch.io](https://corwin-zx.itch.io/big-fantasy-pack){:target="_blank"}
+Edited by Gimleux
