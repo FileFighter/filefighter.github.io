@@ -64,3 +64,9 @@ Here you can find a list of all the reviews we have given for other projects:
 ###### Week 15
 * [DHBWar](https://dhbwar.wordpress.com/2021/04/30/semester-2-week-4/){:target="_blank"}
 * [MyCookieBook](https://mycookiebook.wordpress.com/2021/05/02/week-15-testing/){:target="_blank"}
+
+
+###### Week 16
+* [Plandora](https://plandora51897980.wordpress.com/2021/05/09/week-15-refactoring/){:target="_blank"}
+* [LazyPlants](https://lazysmartplants.wordpress.com/2021/05/09/semester-2-week-5-refactoring/){:target="_blank"}
+
