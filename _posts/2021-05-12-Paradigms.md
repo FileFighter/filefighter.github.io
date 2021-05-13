@@ -17,7 +17,7 @@ To further improve our code quality we are implementing the design pattern "SOFA
 Currently many functions of our code base do not fulfill these requirenments.
 To fix that we want to make our functions smaller with more usage of helper functions. This will lead to shorter functions and improved readability.
 How important the usage of design patterns is can be seen in our implementation of the user update function in the [RESTapi](https://github.com/FileFighter/RestApi){:target="_blank"}.
-Before the UserBusinessService looks like that:
+Before, the UserBusinessService looked like that:
 
 <figure>
 <img src="/assets/images/blog-17/UserBusinessService.pre.png"/>
