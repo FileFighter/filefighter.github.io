@@ -43,7 +43,7 @@ Also, the code refactored code is shown below.
 We are also showing where the pattern appears in our overall class diagram in our [SAD](/wiki/arch#52-architecturally-significant-design-packages) document.
 
 This time we don't have a blogging trick for you but instead we are happy to announce the release of our new stable version _v1.7_. 
-Don't let that small number scare you, we did work over 3 Months on that release!
+Don't let that small number scare you, we did work over 3 months on that release!
 So go ahead and try out [FileFighter](https://github.com/FileFighter/ClientSetup){:target="_blank"}!
 You are more than welcome to leave feedback, open issues or pull requests.
 Thanks for reading have a great day!
