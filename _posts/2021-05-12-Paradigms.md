@@ -14,7 +14,7 @@ To further improve our code quality we are implementing the design pattern "SOFA
 * Single level of **A**bstraction
 
 
-Currently many functions of our code base do not fulfill these requirenments.
+Currently, many functions of our code base do not fulfill these requirements.
 To fix that we want to make our functions smaller with more usage of helper functions. This will lead to shorter functions and improved readability.
 How important the usage of design patterns is can be seen in our implementation of the user update function in the [RESTapi](https://github.com/FileFighter/RestApi){:target="_blank"}.
 Before, the UserBusinessService looked like that:
@@ -36,11 +36,14 @@ The result can be seen in the changed class diagram here:
 <img src="/assets/images/blog-17/UserBusinessService.after.png"/>
 </figure>
 
-Also the code refactored code is shown below.
+Also, the code refactored code is shown below.
 
 <script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/docu/sofa/src/main/java/de/filefighter/rest/domain/user/business/UserBusinessService.java?slice=150:246"></script>
 
-This time we dont have a blogging trick for you but instead we are happy to announce the release of our new stable version _v1.7_. Dont let that small number scare you, we did work over 3 Months on that release!
+We are also showing where the pattern appears in our overall class diagram in our [SAD](/wiki/arch#52-architecturally-significant-design-packages) document.
+
+This time we don't have a blogging trick for you but instead we are happy to announce the release of our new stable version _v1.7_. 
+Don't let that small number scare you, we did work over 3 Months on that release!
 So go ahead and try out [FileFighter](https://github.com/FileFighter/ClientSetup){:target="_blank"}!
 You are more than welcome to leave feedback, open issues or pull requests.
 Thanks for reading have a great day!
