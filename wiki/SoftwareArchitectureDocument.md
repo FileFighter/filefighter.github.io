@@ -159,6 +159,14 @@ For visibility reasons we removed, test-, builder- and exception- / exception ha
 </figure>
 
 
+We implemented the SOFA design pattern for the _UserBusinessService_, the refactored Class Diagram is shown below.
+In the large Diagram the Service is located in the bottom right of the Business Logic block. 
+
+<figure>
+<img src="/assets/images/blog-17/UserBusinessService.after.png"/>
+</figure>
+
+
 The full class diagram is displayed here. Click on the image to enlarge it.
 
 <a href="/assets/images/arch-doc/RestApplication.png">
