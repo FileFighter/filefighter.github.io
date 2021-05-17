@@ -70,3 +70,7 @@ Here you can find a list of all the reviews we have given for other projects:
 * [Plandora](https://plandora51897980.wordpress.com/2021/05/09/week-15-refactoring/){:target="_blank"}
 * [LazyPlants](https://lazysmartplants.wordpress.com/2021/05/09/semester-2-week-5-refactoring/){:target="_blank"}
 
+
+###### Week 17
+* [SimpleSurvey](https://simplesurveyproject.wordpress.com/2021/05/11/week-14-design-patterns/){:target="_blank"}
+* [SweatForSuccess](https://sweatforsuccess689030981.wordpress.com/2021/05/17/semester-2-week-7-design-pattern/){:target="_blank"}
