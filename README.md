@@ -1,4 +1,4 @@
-[//]: # (Trigger Rebuild 11)
+[//]: # (Trigger Rebuild 12)
 # FileFighter Development Blog
 FileFighter's adventure journal  
 ![Link Snitch](https://github.com/FileFighter/filefighter.github.io/workflows/Link%20Snitch/badge.svg)
