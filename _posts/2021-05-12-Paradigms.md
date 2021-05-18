@@ -42,6 +42,31 @@ Also, the code refactored code is shown below.
 
 We are also showing where the pattern appears in our overall class diagram in our [SAD](/wiki/arch#52-architecturally-significant-design-packages) document.
 
+Additional we are also using the flux design pattern for redux in our frontend that is described in [this article](https://www.dotnetcurry.com/reactjs/1356/redux-pattern-tutorial).
+You can find the code for this [here](https://github.com/FileFighter/WebApp/tree/master/src/background/redux){:target="_blank"}.
+
+In our backend we are using the builder pattern all the time, that is described in [this article](https://www.baeldung.com/java-builder-pattern-freebuilder){:target="_blank"}.
+This is useful because you don't have to deal with large constructors anymore.
+Below is example, where having to type a constructor would have been pretty difficult.
+
+{% highlight java %}
+// create empty folder
+FileSystemEntity newFolder = FileSystemEntity.builder()
+.fileSystemId(idGenerationService.consumeNext())
+.isFile(false)
+.visibleForUserIds(latestEntity.getVisibleForUserIds())
+.visibleForGroupIds(latestEntity.getVisibleForGroupIds())
+.editableFoGroupIds(latestEntity.getEditableFoGroupIds())
+.editableForUserIds(latestEntity.getEditableForUserIds())
+.ownerId(latestEntity.getOwnerId())
+.lastUpdatedBy(authenticatedUser.getUserId())
+.typeId(FileSystemType.FOLDER.getId())
+.path(currentAbsolutePath)
+.name(currentEntityName)
+.lastUpdated(fileSystemHelperService.getCurrentTimeStamp())
+.build();
+{% endhighlight %}
+
 This time we don't have a blogging trick for you but instead we are happy to announce the release of our new stable version _v1.7_. 
 Don't let that small number scare you, we did work over 3 months on that release!
 So go ahead and try out [FileFighter](https://github.com/FileFighter/ClientSetup){:target="_blank"}!
