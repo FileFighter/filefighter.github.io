@@ -23,7 +23,7 @@ permalink: /wiki/
     - [3.1.1 Login](#311-login)
     - [3.1.2 Register new user accounts](#312-register-new-user-accounts)
     - [3.1.3 View folder contents](#313-view-folder-contents)
-    - [3.1.4 Edit (rename/delete) files](#314-edit-renamedelete-files)
+    - [3.1.4 Edit (~~rename~~/delete) files](#314-edit-renamedelete-files)
     - [3.1.5 Edit permission (viewing or editing) of files for users or groups](#315-edit-permission-viewing-or-editing-of-files-for-users-or-groups)
     - [3.1.6 Sort folder contents](#316-sort-folder-contents)
     - [3.1.7 Show own profile](#317-show-own-profile)
@@ -169,11 +169,10 @@ Until December, we plan to implement:
  * 3.1.1 Login
  * 3.1.2 Create user accounts
  * 3.1.3 View folder contents
- * 3.1.4 Edit (rename/delete) files
+ * 3.1.4 Edit (~~rename~~/delete) files
  * 3.1.5 Sort folder contents
 
 Until June, we want to implement:
- * 3.1.6 Edit permission (viewing or editing) of files for users or groups
  * 3.1.7 Show own profile
  * 3.1.8 Edit profile information (change password etc.)
  * 3.1.9 Download files
@@ -182,6 +181,7 @@ Until June, we want to implement:
 
 
 Use cases that are out of scope:
+* 3.1.6 Edit permission (viewing or editing) of files for users or groups
  * 3.1.12 View media files like audio or video files
  * 3.1.13 Share links to not logged in users
 
@@ -206,9 +206,9 @@ The users will see all the files and subfolders he can access. He will also be a
 More about this Use Case [here](/wiki/usecases/viewFolderContents.html).
 
 
-#### 3.1.4 Edit (rename/delete) files
+#### 3.1.4 Edit (~~rename~~/delete) files
 
-The user will then be able to rename or delete the files he is seeing, if he also has edit rights for them.
+The user will then be able to ~~rename~~ or delete the files he is seeing, if he also has edit rights for them.
 
 <!-- More about this Use Case -->
 
@@ -240,13 +240,14 @@ More about this Use Case [here](/wiki/usecases/editProfile.html).
 
 This is one of the most important use cases of the application. You will be able to download files you are allowed to see with your browser.
 
-<!-- More about this Use Case -->
+More about this Use Case [here](/wiki/usecases/download.html).
+
 
 #### 3.1.10 Upload files
 
 The same way you can download files you will also be able to upload files in places you are allowed to.
 
-<!-- More about this Use Case -->
+More about this Use Case [here](/wiki/usecases/upload.html).
 
 #### 3.1.11 Search for files
 

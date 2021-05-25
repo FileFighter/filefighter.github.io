@@ -17,6 +17,10 @@ tdb
 ## 1.3 Screenshot
 tbd
 
+## 1.4 Interactive Demo
+<iframe src="https://storybook.filefighter.de/iframe.html?id=profile--default&viewMode=story" style="width:100%;height:700px;border:none"></iframe>
+
+
 # 2. Flow of Events
 
 ## 2.1 Basic Flow
@@ -41,7 +45,7 @@ The user need an account.
 # 4. Preconditions
 1. The user has visited the frontend.
 2. The user has logged in successfully.
-3. The users navigates to the 'profile' page and clicks on the edit button.
+3. The user navigates to the 'profile' page and clicks on the edit button.
 
 # 5. Postconditions
 The updated information are stored in the database and updated in the frontend.
