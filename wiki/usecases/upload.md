@@ -17,6 +17,7 @@ tbd
 
 ## 1.4 Interactive Demo
 <iframe src="https://storybook.filefighter.de/iframe.html?id=filesystem--uploaddecisionsmodal&viewMode=story" style="width:100%;height:700px;border:none"></iframe>
+<iframe src="https://storybook.filefighter.de/iframe.html?id=filesystem--new-folder-modal&viewMode=story" style="width:100%;height:700px;border:none"></iframe>
 
 
 # 2. Flow of Events
