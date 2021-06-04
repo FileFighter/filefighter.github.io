@@ -253,7 +253,8 @@ More about this Use Case [here](/wiki/usecases/upload.html).
 
 You will be able to search for files with a specific name within all the files you are allowed to view.
 
-<!-- More about this Use Case -->
+More about this Use Case [here](/wiki/usecases/searchFiles.html).
+
 
 ### 3.2 Usability
 
