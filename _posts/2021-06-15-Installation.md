@@ -8,8 +8,9 @@ Hello again,
 This time we want to go through the installation of FileFighter.  
 To install FileFighter you only need [Docker](https://www.docker.com/){:target="_blank"} and hardware to run FileFighter on. The codebase is split into services, that run in different Docker Containers hosted on [DockerHub](https://hub.docker.com/u/filefighter){:target="_blank"}.  
 The whole installation guide can be found [here](https://github.com/FileFighter/ClientSetup){:target="_blank"} in our GitHub Repository.
-This will install a command line interface for you (only on linux and osx), which you can use to interact with the
-Docker containers.
+
+# GNU/Linux and MacOS
+Under GNU/Linux this will install a command line interface for you, which you can use to interact with the Docker containers.
 Examples:
 
 - Downloading FileFighter
@@ -55,6 +56,11 @@ ffighter status
 <figure>
     <img src="/assets/images/blog-20/ffighter-status.gif" alt=""/>
 </figure>
+
+# Windows
+When using Windows as server for FileFighter the usage of a commandline tool is not very easy and thus currently not implemented.  
+For that case we wrote a docker-compose file which can be used with the tool [docker-compose](https://docs.docker.com/compose/){:target="_blank"} to manage the containers.  
+This file can be found [here](https://github.com/FileFighter/ClientSetup/blob/master/docker-compose.yml){:target="_blank"}.
 
 That's it for today, be sure to check FileFighter out and give it a chance.  
 Have a nice day!
