@@ -23,8 +23,8 @@ Like how much fun we had, how happy we are with the progress of our project and 
 
 After that we meet with the Team Plandora to discuss some things that went well or went bad, stuff that confused us and ideas we had how to make things better.
 
-We also talked about two topics in details and collected action to improve these.
-Those topics were the dragging along of task over several sprints, and the problem of complex and bad planed use cases.
+We also discussed two topics in detail and collected actions to improve these.
+Those topics were the dragging along of tasks over several sprints and the problem of complex and bad planed use cases.
 
 You can see a screenshot of the collected thoughts below: 
 
