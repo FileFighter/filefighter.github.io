@@ -58,7 +58,7 @@ ffighter status
 </figure>
 
 # Windows
-When using Windows as server for FileFighter the usage of a commandline tool is not very easy and thus currently not implemented.  
+Using Windows as a server for FileFighter is not really recommended (except for testing) and thus a commandline tool is currently not implemented.
 For that case we wrote a docker-compose file which can be used with the tool [docker-compose](https://docs.docker.com/compose/){:target="_blank"} to manage the containers.  
 This file can be found [here](https://github.com/FileFighter/ClientSetup/blob/master/docker-compose.yml){:target="_blank"}.
 
