@@ -14,7 +14,8 @@ Each user will haven an account they can use to access their files. Therefore, t
 tdb
 
 ## 1.3 Screenshot
-tbd
+![login](/assets/images/usecases/login.png)
+
 
 # 2. Flow of Events
 
@@ -36,10 +37,10 @@ tbd
 tbd
 
 # 4. Preconditions
-tbd
+The user exists.
 
 # 5. Postconditions
-tbd
+The user can now interact with the system.
 
 # 6. Function Points
 tbd

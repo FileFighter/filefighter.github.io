@@ -12,7 +12,8 @@ Folders or multiple files will be archived before they are downloaded.
 ## 1.2 Mockup
 tdb
 ## 1.3 Screenshot
-tbd
+![Download](/assets/images/usecases/download.png)
+
 
 ## 1.4 Interactive Demo
 <iframe src="https://storybook.filefighter.de/iframe.html?id=filesystem--filesystemcontextmenu&viewMode=story" style="width:100%;height:300px;border:none"></iframe>
@@ -23,14 +24,17 @@ tbd
 ## 2.1 Basic Flow
 
 ### Activity Diagram
-tdb
+<figure>
+  <img src="/assets/diagrams/activity/download.svg" style="filter:invert(1);width:100%" alt="Activity Diagram" />
+</figure>
+
 ### .feature Files
 
 <script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/Download.feature"></script>
 
 
 ## 2.2 Alternative Flows
-tbd
+n/a
 
 # 3. Special Requirements
 The user exists and is allowed to see the files/folders he wants to download.

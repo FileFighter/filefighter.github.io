@@ -15,7 +15,9 @@ Once an account was created the user is able to change his username and password
 tdb
 
 ## 1.3 Screenshot
-tbd
+![profile view](/assets/images/usecases/profile.png)
+![profile edit view](/assets/images/usecases/editProfile.png)
+
 
 ## 1.4 Interactive Demo
 <iframe src="https://storybook.filefighter.de/iframe.html?id=profile--default&viewMode=story" style="width:100%;height:700px;border:none"></iframe>

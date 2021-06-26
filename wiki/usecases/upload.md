@@ -13,10 +13,14 @@ The use will be able to create a new folder.
 ## 1.2 Mockup
 tdb
 ## 1.3 Screenshot
-tbd
+![upload](/assets/images/usecases/upload.png)
+![upload](/assets/images/usecases/uploadDecision.png)
+![upload](/assets/images/usecases/uploadDecision2.png)
+
 
 ## 1.4 Interactive Demo
 <iframe src="https://storybook.filefighter.de/iframe.html?id=filesystem--uploaddecisionsmodal&viewMode=story" style="width:100%;height:700px;border:none"></iframe>
+<iframe src="https://storybook.filefighter.de/iframe.html?id=filesystem--newfoldermodal&viewMode=story" style="width:100%;height:400px;border:none"></iframe>
 
 
 # 2. Flow of Events
@@ -24,7 +28,10 @@ tbd
 ## 2.1 Basic Flow
 
 ### Activity Diagram
-tdb
+<figure>
+  <img src="/assets/diagrams/activity/upload.svg" style="filter:invert(1);width:100%" alt="Activity Diagram" />
+</figure>
+
 ### .feature Files
 
 <script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/Upload.feature"></script>
