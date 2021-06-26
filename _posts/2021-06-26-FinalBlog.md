@@ -125,7 +125,7 @@ We wrote many blogs over the course of the year which you can find here:
         <h3>
           <a class="post-link" target="_blank" href="/docu/2020/10/24/first-usecases.html">
             First use cases in our wiki
-          </a>{
+          </a>
         </h3></li><li><span class="post-meta">Oct 18, 2020</span>
         <h3>
           <a class="post-link" target="_blank" href="/docu/2020/10/18/setting_up_wiki.html">
