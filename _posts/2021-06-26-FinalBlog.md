@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The end my only friend the end
+title: The end, my only friend the end
 author: open-schnick
 categories: pm
 ---
@@ -12,6 +12,12 @@ Software specifications:
 * [SRS](/wiki/){:target="_blank"}
 * [SAD](/wiki/arch){:target="_blank"}
 * [Test plan](/wiki/testing){:target="_blank"}
+
+Demo:
+<video style="width:100%" muted  controls>
+      <source src="https://assets.filefighter.de/videos/filefighterDemo.mp4" type="video/mp4"> 
+    Your browser does not support the video tag.
+</video>
 
 YouTrack:
 * [Agile Board](https://dhbw-karlsruhe.myjetbrains.com/youtrack/agiles/108-41/){:target="_blank"}
