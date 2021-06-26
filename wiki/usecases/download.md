@@ -24,7 +24,10 @@ tdb
 ## 2.1 Basic Flow
 
 ### Activity Diagram
-tdb
+<figure>
+  <img src="/assets/diagrams/activity/download.svg" style="filter:invert(1);width:100%" alt="Activity Diagram" />
+</figure>
+
 ### .feature Files
 
 <script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/Download.feature"></script>

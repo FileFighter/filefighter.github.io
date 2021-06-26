@@ -24,14 +24,18 @@ tdb
 ## 2.1 Basic Flow
 
 ### Activity Diagram
-tdb
+
+<figure>
+  <img src="/assets/diagrams/activity/search.svg" style="filter:invert(1);width:100%" alt="Activity Diagram" />
+</figure>
+
 ### .feature Files
 
 <script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/SearchFiles.feature"></script>
 
 
 ## 2.2 Alternative Flows
-tbd
+n/a
 
 # 3. Special Requirements
 The user exists and is allowed to view the files he is searching for.
