@@ -12,7 +12,8 @@ He will be able to interact with the results and go to the folder the files are 
 ## 1.2 Mockup
 tdb
 ## 1.3 Screenshot
-tbd
+![search view](/assets/images/usecases/search.png)
+
 
 ## 1.4 Interactive Demo
 <iframe src="https://storybook.filefighter.de/iframe.html?id=filesystem--searchmodal&viewMode=story" style="width:100%;height:700px;border:none"></iframe>

@@ -12,7 +12,8 @@ Folders or multiple files will be archived before they are downloaded.
 ## 1.2 Mockup
 tdb
 ## 1.3 Screenshot
-tbd
+![Download](/assets/images/usecases/download.png)
+
 
 ## 1.4 Interactive Demo
 <iframe src="https://storybook.filefighter.de/iframe.html?id=filesystem--filesystemcontextmenu&viewMode=story" style="width:100%;height:300px;border:none"></iframe>
@@ -30,7 +31,7 @@ tdb
 
 
 ## 2.2 Alternative Flows
-tbd
+n/a
 
 # 3. Special Requirements
 The user exists and is allowed to see the files/folders he wants to download.

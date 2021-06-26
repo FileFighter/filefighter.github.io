@@ -16,7 +16,10 @@ The users will see all the files and subfolders he can access. He will also be a
 </figure>
 
 ## 1.3 Screenshot
-tbd
+
+
+![ View folder contents](/assets/images/usecases/viewFolderContent.png)
+
 
 ## 1.4 Interactive Demo
 <iframe src="https://storybook.filefighter.de/iframe.html?id=filesystem--default&viewMode=story" style="width:100%;height:700px;border:none"></iframe>
