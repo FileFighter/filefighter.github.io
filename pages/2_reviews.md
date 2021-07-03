@@ -79,3 +79,8 @@ Here you can find a list of all the reviews we have given for other projects:
 * [Socialyze](https://socialyze807275475.wordpress.com/2021/05/29/week-8-the-metrics-has-you/){:target="_blank"}
 * [Plandora](https://plandora51897980.wordpress.com/2021/05/31/week-17-metrics/){:target="_blank"}
 
+
+###### Week 18
+* [LittleBeasts](https://littlebeastsgame.wordpress.com/2021/06/08/2-9-installation/){:target="_blank"}
+* [Livepoll](https://blog.live-poll.de/week21/){:target="_blank"}
+
