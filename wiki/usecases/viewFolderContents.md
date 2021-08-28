@@ -36,6 +36,8 @@ The users will see all the files and subfolders he can access. He will also be a
 
 ### .feature File
 
+[GitHub](https://github.com/FileFighter/RestApi/blob/master/src/test/resources/ViewFolderContents.feature)
+
 <script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/ViewFolderContents.feature"></script>
 
 

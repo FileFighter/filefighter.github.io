@@ -33,8 +33,9 @@ tdb
 </figure>
 
 ### .feature Files
-
+[GitHub](https://github.com/FileFighter/RestApi/blob/master/src/test/resources/Upload.feature)
 <script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/Upload.feature"></script>
+[GitHub](https://github.com/FileFighter/RestApi/blob/master/src/test/resources/NewFolder.feature)
 <script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/NewFolder.feature"></script>
 
 
