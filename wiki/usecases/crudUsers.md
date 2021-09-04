@@ -34,27 +34,27 @@ tdb
 
 [GitHub](https://github.com/FileFighter/RestApi/blob/master/src/test/resources/FindUser.feature)
 
-<script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/FindUser.feature"></script>
+<script src="https://gist.filefighter.de/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/FindUser.feature"></script>
 
 
 [GitHub](https://github.com/FileFighter/RestApi/blob/master/src/test/resources/UserRegistration.feature)
 
-<script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/UserRegistration.feature"></script>
+<script src="https://gist.filefighter.de/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/UserRegistration.feature"></script>
 
 ### integration tests 
 [GitHub](https://github.com/FileFighter/WebApp/blob/master/cypress/integration/register_spec.js)
-<script src="https://gist-it.appspot.com/https://github.com/FileFighter/WebApp/blob/master/cypress/integration/register_spec.js"></script>
+<script src="https://gist.filefighter.de/https://github.com/FileFighter/WebApp/blob/master/cypress/integration/register_spec.js"></script>
 
 ### snapshot tests
 
 [GitHub](https://github.com/FileFighter/WebApp/blob/master/src/components/pages/User/Registration.stories.tsx)
 
-<script src="https://gist-it.appspot.com/https://github.com/FileFighter/WebApp/blob/master/src/components/pages/User/Registration.stories.tsx"></script>
+<script src="https://gist.filefighter.de/https://github.com/FileFighter/WebApp/blob/master/src/components/pages/User/Registration.stories.tsx"></script>
 
 ### unit tests
 
 [GitHub](https://github.com/FileFighter/RestApi/blob/master/src/test/java/de/filefighter/rest/domain/user/business/UserBusinessServiceUnitTest.java)
-<script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/java/de/filefighter/rest/domain/user/business/UserBusinessServiceUnitTest.java"></script>
+<script src="https://gist.filefighter.de/https://github.com/FileFighter/RestApi/blob/master/src/test/java/de/filefighter/rest/domain/user/business/UserBusinessServiceUnitTest.java"></script>
 
 ## 2.2 Alternative Flows
 tbd

@@ -38,7 +38,7 @@ The users will see all the files and subfolders he can access. He will also be a
 
 [GitHub](https://github.com/FileFighter/RestApi/blob/master/src/test/resources/ViewFolderContents.feature)
 
-<script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/ViewFolderContents.feature"></script>
+<script src="https://gist.filefighter.de/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/ViewFolderContents.feature"></script>
 
 
 ## 2.2 Alternative Flows

@@ -358,11 +358,11 @@ n/a
 
 ##### Rest Backend
 [GitHub](https://github.com/FileFighter/RestApi/blob/master/.github/workflows/masterTests.yml)
-<script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/.github/workflows/masterTests.yml"></script>
+<script src="https://gist.filefighter.de/https://github.com/FileFighter/RestApi/blob/master/.github/workflows/masterTests.yml"></script>
 
 ##### Webapp
 [GitHub](https://github.com/FileFighter/WebApp/blob/master/.github/workflows/tests.yml)
-<script src="https://gist-it.appspot.com/https://github.com/FileFighter/WebApp/blob/master/.github/workflows/tests.yml"></script>
+<script src="https://gist.filefighter.de/https://github.com/FileFighter/WebApp/blob/master/.github/workflows/tests.yml"></script>
 
 #### 7.6.3 Test Guidelines
 

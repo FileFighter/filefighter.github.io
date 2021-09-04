@@ -27,7 +27,7 @@ As you can see there is a function called _updateUser_. This function is current
 
 [GitHub](https://github.com/FileFighter/RestApi/blob/7281e4594b2998f2276b394b7e1d6021a5a5f61f/src/main/java/de/filefighter/rest/domain/user/business/UserBusinessService.java?slice=153:231)
 
-<script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/7281e4594b2998f2276b394b7e1d6021a5a5f61f/src/main/java/de/filefighter/rest/domain/user/business/UserBusinessService.java?slice=153:231"></script>
+<script src="https://gist.filefighter.de/https://github.com/FileFighter/RestApi/blob/7281e4594b2998f2276b394b7e1d6021a5a5f61f/src/main/java/de/filefighter/rest/domain/user/business/UserBusinessService.java?slice=153:231"></script>
 
 The function updates the username, password and groups in one call. This is not very good for the readability and also does not embrace the "SOFA" pattern.
 To fix that we split the function into four different functions. One function "__updateUser" will call the other three that will update their respective attribute of the user. This makes the code way better to read and to maintain.
@@ -40,7 +40,7 @@ The result can be seen in the changed class diagram here:
 
 Also, the code refactored code is shown below.
 [GitHub](https://github.com/FileFighter/RestApi/blob/docu/sofa/src/main/java/de/filefighter/rest/domain/user/business/UserBusinessService.java?slice=150:246)
-<script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/docu/sofa/src/main/java/de/filefighter/rest/domain/user/business/UserBusinessService.java?slice=150:246"></script>
+<script src="https://gist.filefighter.de/https://github.com/FileFighter/RestApi/blob/docu/sofa/src/main/java/de/filefighter/rest/domain/user/business/UserBusinessService.java?slice=150:246"></script>
 
 We are also showing where the pattern appears in our overall class diagram in our [SAD](/wiki/arch#52-architecturally-significant-design-packages) document.
 

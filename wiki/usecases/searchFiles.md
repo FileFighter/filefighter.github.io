@@ -31,7 +31,7 @@ tdb
 
 ### .feature Files
 [GitHub](https://github.com/FileFighter/RestApi/blob/master/src/test/resources/SearchFiles.feature)
-<script src="https://gist-it.appspot.com/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/SearchFiles.feature"></script>
+<script src="https://gist.filefighter.de/https://github.com/FileFighter/RestApi/blob/master/src/test/resources/SearchFiles.feature"></script>
 
 
 ## 2.2 Alternative Flows
